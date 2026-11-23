@@ -298,10 +298,53 @@ def board_exists(ats, data):
     return isinstance(data, dict) and isinstance(data.get("jobs"), list)
 
 
+def fetch_workable(slug, company):
+    status, data = http_get_json(f"https://apply.workable.com/api/v1/widget/accounts/{urllib.parse.quote(slug)}?details=true")
+    if status != 200 or not isinstance(data, dict) or not isinstance(data.get("jobs"), list):
+        return False, []
+    out = []
+    for j in data["jobs"]:
+        loc = ", ".join(x for x in [j.get("city"), j.get("state"), j.get("country")] if x)
+        out.append({"id": f"workable:{slug}:{j.get('shortcode')}", "company": data.get("name") or company,
+                    "ats": "workable", "slug": slug, "title": (j.get("title") or "").strip(), "location": loc,
+                    "remote": int(bool(j.get("telecommuting")) or "remote" in loc.lower()), "department": j.get("department") or "",
+                    "url": j.get("url") or j.get("shortlink") or "", "apply_url": j.get("application_url") or j.get("url") or "",
+                    "posted": (j.get("published_on") or j.get("created_at") or "") + ("T00:00:00+00:00" if len(j.get("published_on") or "") == 10 else ""),
+                    "description": html_to_text(j.get("description", ""))[:20000], "compensation": ""})
+    return True, out
+
+
+def fetch_bamboohr(slug, company):
+    base = f"https://{slug}.bamboohr.com/careers"
+    status, data = http_get_json(base + "/list")
+    if status != 200 or not isinstance(data, dict) or not isinstance(data.get("result"), list):
+        return False, []
+    out = []
+    for j in data["result"]:
+        loc = j.get("location") or {}
+        locs = ", ".join(x for x in [loc.get("city"), loc.get("state")] if x) if isinstance(loc, dict) else str(loc)
+        job = {"id": f"bamboohr:{slug}:{j.get('id')}", "company": company, "ats": "bamboohr", "slug": slug,
+               "title": (j.get("jobOpeningName") or "").strip(), "location": locs,
+               "remote": int(bool(j.get("isRemote")) or "remote" in locs.lower()), "department": j.get("departmentLabel") or "",
+               "url": f"{base}/{j.get('id')}", "apply_url": f"{base}/{j.get('id')}", "posted": "", "description": "",
+               "compensation": ""}
+        st, det = http_get_json(f"{base}/{j.get('id')}/detail")
+        op = ((det or {}).get("result") or {}).get("jobOpening") or {}
+        job["description"] = html_to_text(op.get("description", ""))[:20000]
+        if op.get("datePosted"):
+            job["posted"] = op["datePosted"][:10] + "T00:00:00+00:00"
+        out.append(job)
+    return True, out
+
+
 def fetch_board(ats, slug, company):
     """Return (ok, jobs). ok=False means the board could not be read."""
     if ats == "workday":
         return fetch_workday(slug, company)
+    if ats == "workable":
+        return fetch_workable(slug, company)
+    if ats == "bamboohr":
+        return fetch_bamboohr(slug, company)
     status, data = http_get_json(board_url(ats, slug))
     if ats == "greenhouse" and (status != 200 or not board_exists(ats, data)):
         # boards hosted in Greenhouse's EU region live on a separate API host
@@ -320,12 +363,19 @@ SLUG_PATTERNS = [
     ("lever", re.compile(r"jobs\.(?:eu\.)?lever\.co/([A-Za-z0-9_.-]+)", re.I)),
     ("ashby", re.compile(r"jobs\.ashbyhq\.com/([A-Za-z0-9_.%~-]+)", re.I)),
 ]
+WORKABLE_RE = re.compile(r"apply\.workable\.com/([A-Za-z0-9_-]+)", re.I)
+BAMBOO_RE = re.compile(r"https?://([a-z0-9-]+)\.bamboohr\.com/(?:careers|jobs)", re.I)
 WORKDAY_RE = re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)", re.I)
 BAD_SLUGS = {"embed", "v1", "jobs", "job_board", "api", "search", "robots.txt", "favicon.ico", "sitemap.xml", ""}
 
 
 def slugs_from_text(text):
     found = set()
+    for m in WORKABLE_RE.finditer(text):
+        if m.group(1).lower() not in ("j", "api", "jobs"):
+            found.add(("workable", m.group(1)))
+    for m in BAMBOO_RE.finditer(text):
+        found.add(("bamboohr", m.group(1).lower()))
     for m in WORKDAY_RE.finditer(text):
         tenant, wd, site = m.group(1).lower(), m.group(2).lower(), m.group(3)
         if site.lower() not in ("wday", "job"):
@@ -868,7 +918,7 @@ def cmd_check_links(args):
     out_fields = [f for f in out_fields if not f.startswith("_")] + ["live", "posted", "min_years", "comp", "check_note"]
     for r in rows:
         r.update(live="", posted="", min_years="", comp="", check_note="")
-        if r.get("_ats") in ATS_LIST + ["workday"]:
+        if r.get("_ats") in ATS_LIST + ["workday", "workable", "bamboohr"]:
             ok, jobs = res.get((r["_ats"], r["_slug"]), (False, []))
             if not ok:
                 r["check_note"] = "board not readable"
