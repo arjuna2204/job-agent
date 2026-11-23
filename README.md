@@ -1,6 +1,6 @@
 # job-agent (private)
 
-Nightly job finder for Arjun. GitHub Actions runs `finder.py` every night (see
+Nightly job finder for Arjun. GitHub Actions runs `finder.py` twice a day (~11:52am and ~5:52pm ET) plus a Sunday discovery run (see
 `.github/workflows/nightly.yml`), checks every watched company's Greenhouse / Lever / Ashby
 board plus any Instinct links in `data/instinct_jobs.csv`, and commits:
 
@@ -10,4 +10,4 @@ board plus any Instinct links in `data/instinct_jobs.csv`, and commits:
 - `data/applied.csv` - everything already applied to (never resurfaced)
 
 Resume and application answers are NOT stored here; they stay on Arjun's Mac.
-Run it now: Actions tab -> nightly-job-finder -> Run workflow.
+Run it now: Actions tab -> job-finder -> Run workflow.
