@@ -43,7 +43,7 @@ WATCHLIST_PATH = ROOT / "watchlist.csv"
 DB_PATH = DATA / "jobs.db"
 WATCH_FIELDS = ["company", "ats", "slug", "source", "status", "added"]
 UA = "Mozilla/5.0 (Macintosh) personal-job-finder/1.0"
-ATS_LIST = ["greenhouse", "lever", "ashby"]
+ATS_LIST = ["greenhouse", "lever", "ashby"]  # tried by `detect`; workday is added from links
 
 
 # ---------------------------------------------------------------- utilities
@@ -218,6 +218,79 @@ def parse_ashby(data, company, slug):
 
 PARSERS = {"greenhouse": parse_greenhouse, "lever": parse_lever, "ashby": parse_ashby}
 
+# Workday: slug format "tenant|wdN|site", e.g. "td|wd3|TD_Bank_Careers"
+WD_SEARCH_TERMS = ["analyst", "associate", "sales", "credit", "investment", "operations"]
+
+
+def http_post_json(url, payload, timeout=30):
+    data = json.dumps(payload).encode()
+    req = urllib.request.Request(url, data=data, headers={"User-Agent": UA, "Content-Type": "application/json",
+                                                          "Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX) as r:
+            return r.status, json.loads(r.read().decode("utf-8", errors="replace"))
+    except urllib.error.HTTPError as e:
+        return e.code, None
+    except Exception:
+        return 0, None
+
+
+def wd_posted_iso(text):
+    t = (text or "").lower()
+    now = datetime.now(timezone.utc)
+    if "today" in t:
+        d = 0
+    elif "yesterday" in t:
+        d = 1
+    else:
+        m = re.search(r"(\d+)\+?\s*days?", t)
+        d = int(m.group(1)) if m else 60
+    return (now - timedelta(days=d)).replace(microsecond=0).isoformat()
+
+
+def fetch_workday(slug, company, cfg=None):
+    """List a Workday career site's jobs via its public JSON endpoint; fetch descriptions only
+    for jobs whose title and location already pass the filters (keeps big banks fast)."""
+    cfg = cfg or load_config()
+    try:
+        tenant, wd, site = slug.split("|")
+    except ValueError:
+        return False, []
+    base = f"https://{tenant}.{wd}.myworkdayjobs.com/wday/cxs/{tenant}/{site}"
+    seen, out, ok_any = set(), [], False
+    for term in WD_SEARCH_TERMS:
+        for offset in range(0, 200, 20):
+            status, data = http_post_json(base + "/jobs", {"appliedFacets": {}, "limit": 20, "offset": offset,
+                                                            "searchText": term})
+            if status != 200 or not data:
+                break
+            ok_any = True
+            posts = data.get("jobPostings") or []
+            for jp in posts:
+                path = jp.get("externalPath") or ""
+                if not path or path in seen:
+                    continue
+                seen.add(path)
+                job = {"id": f"workday:{slug}:{path.rsplit('_', 1)[-1]}", "company": company, "ats": "workday",
+                       "slug": slug, "title": (jp.get("title") or "").strip(), "location": jp.get("locationsText") or "",
+                       "remote": int("remote" in (jp.get("locationsText") or "").lower()), "department": "",
+                       "url": f"https://{tenant}.{wd}.myworkdayjobs.com/en-US/{site}{path}",
+                       "apply_url": f"https://{tenant}.{wd}.myworkdayjobs.com/en-US/{site}{path}/apply",
+                       "posted": wd_posted_iso(jp.get("postedOn")), "description": "", "compensation": ""}
+                # cheap pre-check before paying for the detail call
+                pre, _ = evaluate(job, dict(cfg, max_years_required=None))
+                if pre:
+                    st, det = http_get_json(base + path)
+                    info = (det or {}).get("jobPostingInfo") or {}
+                    job["description"] = html_to_text(info.get("jobDescription", ""))[:20000]
+                    if info.get("startDate"):
+                        job["posted"] = info["startDate"] + "T00:00:00+00:00"
+                out.append(job)
+            if len(posts) < 20:
+                break
+    return ok_any, out
+
+
 
 def board_exists(ats, data):
     if ats == "lever":
@@ -227,6 +300,8 @@ def board_exists(ats, data):
 
 def fetch_board(ats, slug, company):
     """Return (ok, jobs). ok=False means the board could not be read."""
+    if ats == "workday":
+        return fetch_workday(slug, company)
     status, data = http_get_json(board_url(ats, slug))
     if ats == "greenhouse" and (status != 200 or not board_exists(ats, data)):
         # boards hosted in Greenhouse's EU region live on a separate API host
@@ -245,11 +320,16 @@ SLUG_PATTERNS = [
     ("lever", re.compile(r"jobs\.(?:eu\.)?lever\.co/([A-Za-z0-9_.-]+)", re.I)),
     ("ashby", re.compile(r"jobs\.ashbyhq\.com/([A-Za-z0-9_.%~-]+)", re.I)),
 ]
+WORKDAY_RE = re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)", re.I)
 BAD_SLUGS = {"embed", "v1", "jobs", "job_board", "api", "search", "robots.txt", "favicon.ico", "sitemap.xml", ""}
 
 
 def slugs_from_text(text):
     found = set()
+    for m in WORKDAY_RE.finditer(text):
+        tenant, wd, site = m.group(1).lower(), m.group(2).lower(), m.group(3)
+        if site.lower() not in ("wday", "job"):
+            found.add(("workday", f"{tenant}|{wd}|{site}"))
     for ats, pat in SLUG_PATTERNS:
         for m in pat.finditer(text):
             slug = urllib.parse.unquote(m.group(1)).strip().strip(".")
@@ -772,8 +852,8 @@ def cmd_check_links(args):
         if found:
             ats, slug = sorted(found)[0]
             r["_ats"], r["_slug"] = ats, slug
-            tail = url.rstrip("/").split("/")[-1]
-            r["_job_id"] = tail.split("?")[0]
+            tail = url.rstrip("/").split("/")[-1].split("?")[0]
+            r["_job_id"] = tail.rsplit("_", 1)[-1] if ats == "workday" else tail
             boards[(ats, slug)] = None
         elif m:
             r["_ats"], r["_job_id"] = "greenhouse_embed", m.group(1)
@@ -788,7 +868,7 @@ def cmd_check_links(args):
     out_fields = [f for f in out_fields if not f.startswith("_")] + ["live", "posted", "min_years", "comp", "check_note"]
     for r in rows:
         r.update(live="", posted="", min_years="", comp="", check_note="")
-        if r.get("_ats") in ATS_LIST:
+        if r.get("_ats") in ATS_LIST + ["workday"]:
             ok, jobs = res.get((r["_ats"], r["_slug"]), (False, []))
             if not ok:
                 r["check_note"] = "board not readable"
