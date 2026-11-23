@@ -5,7 +5,12 @@ on:
     - cron: "52 16 * * *"     # ~11:52am ET (16:52 UTC)
     - cron: "52 22 * * *"     # ~5:52pm ET (22:52 UTC)
     - cron: "41 7 * * 0"      # Sundays ~2:41am ET: discovery + poll
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      discovery:
+        description: "Also run the slow company discovery"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,7 +46,7 @@ jobs:
         run: python finder.py check-links data/instinct_jobs.csv
 
       - name: Weekly discovery (Sundays)
-        if: github.event.schedule == '41 7 * * 0' || github.event_name == 'workflow_dispatch'
+        if: github.event.schedule == '41 7 * * 0' || inputs.discovery == true
         run: python finder.py discover --commoncrawl --limit 1500 || true
 
       - name: Poll every company
