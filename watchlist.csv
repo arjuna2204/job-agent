@@ -1,0 +1,241 @@
+company,ats,slug,source,status,added
+Ramp,ashby,ramp,seed,ok,2026-11-19
+Brex,greenhouse,brex,seed,ok,2026-11-19
+Mercury,greenhouse,mercury,seed,ok,2026-11-19
+Plaid,ashby,plaid,seed,ok,2026-11-19
+Stripe,greenhouse,stripe,seed,ok,2026-11-19
+Robinhood,greenhouse,robinhood,seed,ok,2026-11-19
+Public,greenhouse,public,seed,ok,2026-11-19
+Wealthfront,lever,wealthfront,seed,ok,2026-11-19
+Betterment,greenhouse,betterment,seed,ok,2026-11-19
+Carta,greenhouse,carta,seed,ok,2026-11-19
+Addepar,,,seed,not_found,2026-11-19
+Altruist,greenhouse,altruist,seed,ok,2026-11-19
+Alpaca,greenhouse,alpaca,seed,ok,2026-11-19
+Atomic Invest,ashby,atomic-invest,seed,ok,2026-11-19
+Yieldstreet,,,seed,not_found,2026-11-19
+Fundrise,lever,fundrise,seed,ok,2026-11-19
+Masterworks,,,seed,not_found,2026-11-19
+Moov,,,seed,not_found,2026-11-19
+Modern Treasury,ashby,moderntreasury,seed,ok,2026-11-19
+Increase,lever,increase,seed,ok,2026-11-19
+Column,ashby,column,seed,ok,2026-11-19
+Unit,ashby,unit,seed,ok,2026-11-19
+Alloy,greenhouse,alloy,seed,ok,2026-11-19
+Persona,ashby,persona,seed,ok,2026-11-19
+Sardine,ashby,sardine,seed,ok,2026-11-19
+Unit21,,,seed,not_found,2026-11-19
+Middesk,ashby,middesk,seed,ok,2026-11-19
+Pinwheel,,,seed,not_found,2026-11-19
+Argyle,,,seed,not_found,2026-11-19
+Bilt Rewards,,,seed,not_found,2026-11-19
+Kalshi,greenhouse,kalshi,seed,ok,2026-11-19
+Polymarket,ashby,polymarket,seed,ok,2026-11-19
+Clear Street,greenhouse,clearstreet,seed,ok,2026-11-19
+Parafin,ashby,parafin,seed,ok,2026-11-19
+Pipe,,,seed,not_found,2026-11-19
+Arc,,,seed,not_found,2026-11-19
+Rho,ashby,rho,seed,ok,2026-11-19
+Novo,ashby,novo,seed,ok,2026-11-19
+Capchase,ashby,capchase,seed,ok,2026-11-19
+Juniper Square,ashby,junipersquare,seed,ok,2026-11-19
+Canoe Intelligence,,,seed,not_found,2026-11-19
+Arch,ashby,arch,seed,ok,2026-11-19
+Hebbia,,,seed,not_found,2026-11-19
+Rogo,ashby,rogo,seed,ok,2026-11-19
+Daloopa,,,seed,not_found,2026-11-19
+AlphaSense,greenhouse,alphasense,seed,ok,2026-11-19
+Brightwave,,,seed,not_found,2026-11-19
+Farther,,,seed,not_found,2026-11-19
+Savvy Wealth,ashby,savvy,seed,ok,2026-11-19
+Range,greenhouse,range,seed,ok,2026-11-19
+Domain Money,,,seed,not_found,2026-11-19
+Titan,ashby,titan,seed,ok,2026-11-19
+Esusu,,,seed,not_found,2026-11-19
+Petal,,,seed,not_found,2026-11-19
+Tally,,,seed,not_found,2026-11-19
+Figure,greenhouse,figure,seed,ok,2026-11-19
+Upgrade,greenhouse,upgrade,seed,ok,2026-11-19
+Valon,ashby,valon,seed,ok,2026-11-19
+Better,,,seed,not_found,2026-11-19
+Blend,greenhouse,blend,seed,ok,2026-11-19
+Belong,,,seed,not_found,2026-11-19
+Cadre,ashby,cadre,seed,ok,2026-11-19
+Percent,,,seed,not_found,2026-11-19
+Ridgeline,greenhouse,ridgeline,seed,ok,2026-11-19
+Vanta,ashby,vanta,seed,ok,2026-11-19
+Rippling,,,seed,not_found,2026-11-19
+Mosaic,ashby,mosaic,seed,ok,2026-11-19
+Pigment,lever,pigment,seed,ok,2026-11-19
+Rillet,ashby,rillet,seed,ok,2026-11-19
+Campfire,ashby,campfire,seed,ok,2026-11-19
+Numeric,ashby,numeric,seed,ok,2026-11-19
+Tabs,ashby,tabs,seed,ok,2026-11-19
+Ledge,ashby,ledge,seed,ok,2026-11-19
+Maxio,,,seed,not_found,2026-11-19
+Kyriba,,,seed,not_found,2026-11-19
+Paxos,ashby,paxos,seed,ok,2026-11-19
+Anchorage Digital,lever,anchorage,seed,ok,2026-11-19
+Bitwise,,,seed,not_found,2026-11-19
+Coinbase,greenhouse,coinbase,seed,ok,2026-11-19
+Gemini,greenhouse,gemini,seed,ok,2026-11-19
+Chainalysis,,,seed,not_found,2026-11-19
+Dave,ashby,dave,seed,ok,2026-11-19
+Current,greenhouse,current,seed,ok,2026-11-19
+Chime,greenhouse,chime,seed,ok,2026-11-19
+Cash App,,,seed,not_found,2026-11-19
+Melio,greenhouse,melio,seed,ok,2026-11-19
+Bill,,,seed,not_found,2026-11-19
+Navan,,,seed,not_found,2026-11-19
+Airbase,,,seed,not_found,2026-11-19
+Jeeves,,,seed,not_found,2026-11-19
+Revolut,,,seed,not_found,2026-11-19
+Monzo,greenhouse,monzo,seed,ok,2026-11-19
+Wise,greenhouse,wise,seed,ok,2026-11-19
+Checkout.com,,,seed,not_found,2026-11-19
+GoCardless,greenhouse,gocardless,seed,ok,2026-11-19
+TrueLayer,ashby,truelayer,seed,ok,2026-11-19
+Starling Bank,,,seed,not_found,2026-11-19
+Zopa,lever,zopa,seed,ok,2026-11-19
+Freetrade,ashby,freetrade,seed,ok,2026-11-19
+Lendable,ashby,lendable,seed,ok,2026-11-19
+Cleo,greenhouse,cleo,seed,ok,2026-11-19
+Primer,ashby,primer,seed,ok,2026-11-19
+Yapily,,,seed,not_found,2026-11-19
+Tide,greenhouse,tide,seed,ok,2026-11-19
+Curve,,,seed,not_found,2026-11-19
+Moneybox,ashby,moneybox,seed,ok,2026-11-19
+Ebury,greenhouse,ebury,seed,ok,2026-11-19
+Paddle,ashby,paddle,seed,ok,2026-11-19
+Pleo,ashby,pleo,seed,ok,2026-11-19
+Airwallex,ashby,airwallex,seed,ok,2026-11-19
+Lunar,ashby,lunar,seed,ok,2026-11-19
+Trading 212,ashby,trading212,seed,ok,2026-11-19
+Allica Bank,ashby,allica-bank,seed,ok,2026-11-19
+Thought Machine,ashby,thought-machine,seed,ok,2026-11-19
+Synthesia,ashby,synthesia,seed,paused,2026-11-19
+11FS,,,seed,not_found,2026-11-19
+Marqeta,,,seed,not_found,2026-11-19
+Affirm,greenhouse,affirm,seed,ok,2026-11-19
+SoFi,greenhouse,sofi,seed,ok,2026-11-19
+Klarna,,,seed,not_found,2026-11-19
+Nubank,ashby,nubank,seed,ok,2026-11-19
+Toast,greenhouse,toast,seed,ok,2026-11-19
+Gusto,greenhouse,gusto,seed,ok,2026-11-19
+Deel,ashby,deel,seed,ok,2026-11-19
+Remote,greenhouse,remote,seed,paused,2026-11-19
+Modern Life,lever,modernlife,seed,ok,2026-11-19
+Stash,ashby,stash,seed,ok,2026-11-19
+Acorns,ashby,acorns,seed,ok,2026-11-19
+M1 Finance,,,seed,not_found,2026-11-19
+iCapital,,,seed,not_found,2026-11-19
+Arcesium,,,seed,not_found,2026-11-19
+Vise,ashby,vise,seed,ok,2026-11-19
+Composer,,,seed,not_found,2026-11-19
+Ethic,greenhouse,ethic,seed,ok,2026-11-19
+Orion,,,seed,not_found,2026-11-19
+Mesh,greenhouse,mesh,seed,ok,2026-11-19
+Lithic,greenhouse,lithic,seed,ok,2026-11-19
+Highnote,greenhouse,highnote,seed,ok,2026-11-19
+Bond,,,seed,not_found,2026-11-19
+Treasury Prime,greenhouse,treasuryprime,seed,ok,2026-11-19
+Synctera,ashby,synctera,seed,ok,2026-11-19
+Finix,lever,finix,seed,ok,2026-11-19
+Rainforest,,,seed,not_found,2026-11-19
+Stax,lever,stax,seed,ok,2026-11-19
+Spade,ashby,spade,seed,ok,2026-11-19
+Sila,lever,sila,seed,paused,2026-11-19
+Hightouch,ashby,hightouch,seed,paused,2026-11-19
+Coinflow,ashby,Coinflow,web-search,ok,2026-11-19
+Wealthsimple,ashby,wealthsimple,web-search,ok,2026-11-19
+FT Partners,greenhouse,financialtechnologypartners,web-search,ok,2026-11-19
+Setpoint,greenhouse,setpoint,web-search,ok,2026-11-19
+Capital on Tap,greenhouse,capitalontap,web-search,ok,2026-11-19
+Flex,greenhouse,flex,web-search,ok,2026-11-19
+Kapitus,greenhouse,kapitus,web-search,ok,2026-11-19
+Freemarket,greenhouse,freemarket,web-search,ok,2026-11-19
+Jane Street,greenhouse,janestreet,web-search,ok,2026-11-19
+Rain,ashby,rain,web-search,ok,2026-11-19
+Narmi,lever,narmi,web-search,ok,2026-11-19
+Opto Investments,,,web-search,not_found,2026-11-19
+Brigit,ashby,brigit,web-search,ok,2026-11-19
+IEX,greenhouse,iex,web-search,ok,2026-11-19
+Addition Wealth,lever,additionwealth,web-search,ok,2026-11-19
+January,ashby,january,web-search,ok,2026-11-19
+Flourish,greenhouse,flourish,web-search,ok,2026-11-19
+Moment,ashby,moment,web-search,ok,2026-11-19
+Outpost,ashby,outpost,web-search,ok,2026-11-19
+Capi Money,ashby,capimoney,web-search,ok,2026-11-19
+LemFi,ashby,lemfi,web-search,ok,2026-11-19
+payabl,,,web-search,not_found,2026-11-19
+Evervault,ashby,evervault,web-search,ok,2026-11-19
+Knot,ashby,knot,web-search,ok,2026-11-19
+Pliant,ashby,pliant,web-search,ok,2026-11-19
+Arca,ashby,arca,web-search,ok,2026-11-19
+Modulr Finance,greenhouse,modulrfinance,web-search,ok,2026-11-19
+Agora,,,web-search,not_found,2026-11-19
+Attain,greenhouse,attain,web-search,ok,2026-11-19
+Blackpoint Cyber,ashby,Blackpoint Cyber,commoncrawl,paused,2026-11-19
+Carwow,ashby,Carwow,commoncrawl,paused,2026-11-19
+Clera,ashby,Clera,commoncrawl,paused,2026-11-19
+ElevenLabs,ashby,ElevenLabs,commoncrawl,paused,2026-11-19
+Flock Safety,ashby,Flock Safety,commoncrawl,paused,2026-11-19
+Forward Financing,ashby,Forward Financing,commoncrawl,ok,2026-11-19
+Headway,ashby,Headway,commoncrawl,paused,2026-11-19
+HighlightTA,ashby,HighlightTA,commoncrawl,paused,2026-11-19
+Jerry.ai,ashby,Jerry.ai,commoncrawl,paused,2026-11-19
+Legora,ashby,Legora,commoncrawl,paused,2026-11-19
+Nivoda,ashby,Nivoda,commoncrawl,paused,2026-11-19
+Notion,ashby,Notion,commoncrawl,paused,2026-11-19
+OpenAI,ashby,OpenAI,commoncrawl,paused,2026-11-19
+Redis,ashby,Redis,commoncrawl,paused,2026-11-19
+Skydio,ashby,Skydio,commoncrawl,paused,2026-11-19
+The-Flex,ashby,The-Flex,commoncrawl,paused,2026-11-19
+adaptyv,ashby,adaptyv,commoncrawl,paused,2026-11-19
+alpacahealth,ashby,alpacahealth,commoncrawl,paused,2026-11-19
+ankar,ashby,ankar,commoncrawl,paused,2026-11-19
+aptura,ashby,aptura,commoncrawl,paused,2026-11-19
+armadin,ashby,armadin,commoncrawl,paused,2026-11-19
+atlasonc,ashby,atlasonc,commoncrawl,paused,2026-11-19
+baseten,ashby,baseten,commoncrawl,paused,2026-11-19
+beam-up,ashby,beam-up,commoncrawl,paused,2026-11-19
+canals,ashby,canals,commoncrawl,paused,2026-11-19
+candidhealth,ashby,candidhealth,commoncrawl,paused,2026-11-19
+chainalysis-careers,ashby,chainalysis-careers,commoncrawl,ok,2026-11-19
+checkatrade,ashby,checkatrade,commoncrawl,paused,2026-11-19
+checkout.com,ashby,checkout.com,commoncrawl,ok,2026-11-19
+claylabs,ashby,claylabs,commoncrawl,paused,2026-11-19
+clipboard,ashby,clipboard,commoncrawl,paused,2026-11-19
+code-metal,ashby,code-metal,commoncrawl,paused,2026-11-19
+codes-health,ashby,codes-health,commoncrawl,paused,2026-11-19
+conveo,ashby,conveo,commoncrawl,paused,2026-11-19
+creatoriq,ashby,creatoriq,commoncrawl,paused,2026-11-19
+curri,ashby,curri,commoncrawl,paused,2026-11-19
+decagon,ashby,decagon,commoncrawl,paused,2026-11-19
+deliveroo,ashby,deliveroo,commoncrawl,paused,2026-11-19
+double,ashby,double,commoncrawl,paused,2026-11-19
+eightsleep,ashby,eightsleep,commoncrawl,paused,2026-11-19
+eneba,ashby,eneba,commoncrawl,paused,2026-11-19
+exa,ashby,exa,commoncrawl,paused,2026-11-19
+faculty,ashby,faculty,commoncrawl,paused,2026-11-19
+finni-health,ashby,finni-health,commoncrawl,paused,2026-11-19
+flai,ashby,flai,commoncrawl,paused,2026-11-19
+flashpoint.io,ashby,flashpoint.io,commoncrawl,paused,2026-11-19
+footprint,ashby,footprint,commoncrawl,paused,2026-11-19
+fundingcircle,ashby,fundingcircle,commoncrawl,ok,2026-11-19
+grow-therapy,ashby,grow-therapy,commoncrawl,paused,2026-11-19
+hanover-park,ashby,hanover-park,commoncrawl,ok,2026-11-19
+harvey,ashby,harvey,commoncrawl,paused,2026-11-19
+highbeam,ashby,highbeam,commoncrawl,ok,2026-11-19
+honeydew,ashby,honeydew,commoncrawl,paused,2026-11-19
+illumio,ashby,illumio,commoncrawl,paused,2026-11-19
+imubiosciences,ashby,imubiosciences,commoncrawl,paused,2026-11-19
+irissoftwaregroup,ashby,irissoftwaregroup,commoncrawl,paused,2026-11-19
+ironcladhq,ashby,ironcladhq,commoncrawl,paused,2026-11-19
+jellyfishcareers,ashby,jellyfishcareers,commoncrawl,paused,2026-11-19
+Blockworks,ashby,Blockworks,commoncrawl,ok,2026-11-19
+moss,ashby,moss,commoncrawl,ok,2026-11-19
+oscilar,ashby,oscilar,commoncrawl,ok,2026-11-19
+tempo-xyz,ashby,tempo-xyz,commoncrawl,ok,2026-11-19
+addepar1,greenhouse,addepar1,commoncrawl,ok,2026-11-19
+aircallioinc,greenhouse,aircallioinc,commoncrawl,paused,2026-11-19
