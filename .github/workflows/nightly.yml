@@ -52,6 +52,13 @@ jobs:
       - name: Poll every company
         run: python finder.py poll
 
+      - name: Sync jobs + matches to the website
+        if: success()
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python web_sync.py || echo "website sync failed (finder results still committed)"
+
       - name: Save job database
         if: always()
         uses: actions/cache/save@v4

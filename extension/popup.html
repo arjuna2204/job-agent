@@ -1,0 +1,21 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+body{font:13px system-ui,sans-serif;width:320px;margin:12px;color:#1c1c1a}
+input{width:100%;box-sizing:border-box;padding:6px;margin:2px 0 8px;border:1px solid #ccc;border-radius:6px}
+button{padding:6px 12px;border-radius:6px;border:1px solid #1f5f4a;background:#1f5f4a;color:#fff;font-weight:600;cursor:pointer}
+button.ghost{background:#fff;color:#1f5f4a}
+#status{margin:10px 0;padding:8px;background:#f3f3ef;border-radius:6px;min-height:18px}
+li{margin:2px 0} .muted{color:#6b6b66} label{font-weight:600}
+</style></head><body>
+<h3 style="margin:0 0 8px">Job Agent</h3>
+<div id="setup">
+  <label>Site URL</label><input id="site" placeholder="https://your-site.vercel.app">
+  <label>Your key (from the Extension page on the site)</label><input id="token">
+  <label style="font-weight:400"><input type="checkbox" id="autoSubmit" style="width:auto"> Auto-submit when every required field is filled</label>
+  <button id="save" class="ghost">Save</button>
+</div>
+<div id="status"></div>
+<button id="start">Start applying</button> <button id="stop" class="ghost">Stop</button>
+<ul id="done" class="muted"></ul>
+<script src="popup.js"></script>
+</body></html>
