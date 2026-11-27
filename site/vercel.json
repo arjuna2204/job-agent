@@ -11,6 +11,25 @@
       "source": "/earnings-intel",
       "destination": "/earningsintel",
       "permanent": true
+    },
+    {
+      "source": "/pipeline-scout",
+      "destination": "/gtm",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/gtm",
+      "destination": "https://gtm.iamarjunagarwal.com/gtm"
+    },
+    {
+      "source": "/gtm/:path*",
+      "destination": "https://gtm.iamarjunagarwal.com/gtm/:path*"
+    },
+    {
+      "source": "/api/gtm/:path*",
+      "destination": "https://gtm.iamarjunagarwal.com/api/gtm/:path*"
     }
   ]
 }
