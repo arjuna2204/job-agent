@@ -388,16 +388,26 @@ def slugs_from_text(text):
     return found
 
 
+GENERIC_WORDS = {"bank", "capital", "first", "american", "united", "national", "global", "the", "new",
+                 "general", "financial", "partners", "group", "one", "credit", "wealth", "health", "data",
+                 "real", "open", "smart", "trust", "fund", "asset", "investment", "investments", "money",
+                 "pay", "home", "life", "insurance", "market", "markets", "securities", "advisors"}
+
+
 def candidate_slugs(name):
-    base = name.lower().strip()
+    base = name.lower().strip().replace("&", " and ").replace(".com", "").replace("'", "")
+    base = re.sub(r"\(.*?\)", "", base)
     base = re.sub(r"[,.]?\s+(inc|llc|ltd|co|corp|corporation|technologies|labs|hq)\.?$", "", base)
     words = re.findall(r"[a-z0-9]+", base)
     cands = ["".join(words), "-".join(words)]
-    if words:
+    if "and" in words:
+        cands.append("".join(w for w in words if w != "and"))
+    # first word alone only when it is distinctive (avoids "Bank of America" -> "bank")
+    if len(words) > 1 and len(words[0]) >= 4 and words[0] not in GENERIC_WORDS:
         cands.append(words[0])
     seen, out = set(), []
     for c in cands:
-        if c and c not in seen:
+        if c and c not in seen and len(c) > 2:
             seen.add(c)
             out.append(c)
     return out
@@ -407,9 +417,15 @@ def detect_board(name, prefer=("ashby", "greenhouse", "lever")):
     """Try likely slugs on every ATS and keep the board with the most jobs
     (a company can leave a stale board behind on another ATS). Returns (ats, slug, n_jobs) or None."""
     found = []
+    words = re.findall(r"[a-z0-9]+", name.lower().replace("&", " and "))
     for slug in candidate_slugs(name):
+        partial = len(words) > 1 and slug == words[0]  # matched on first word only: verify it's the same company
         for ats in ATS_LIST:
             ok, jobs = fetch_board(ats, slug, name)
+            if ok and partial:
+                text = " ".join((j.get("description") or "")[:3000] for j in jobs[:10]).lower()
+                rest = " ".join(w for w in words[1:] if w not in ("inc", "llc", "the", "and", "of"))
+                ok = bool(jobs) and rest and rest in text
             if ok:
                 found.append((len(jobs), -prefer.index(ats) if ats in prefer else -9, ats, slug))
     if not found:
