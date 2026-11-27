@@ -776,7 +776,8 @@ def screen_and_add(slugs, source, cfg, limit):
                 f.write(f"{a}:{sl.lower()}\n")
     added = 0
     for (company, ats, slug), (ok, jobs) in results.items():
-        if ok and any(evaluate(j, cfg)[0] for j in jobs) and in_industry(jobs, cfg):
+        matched = [j for j in jobs if evaluate(j, cfg)[0]] if ok else []
+        if matched and (in_industry(jobs, cfg) or any_general_role(matched, cfg)):
             rows.append({"company": slug, "ats": ats, "slug": slug, "source": source,
                          "status": "ok", "added": now_iso()[:10]})
             added += 1
@@ -786,6 +787,13 @@ def screen_and_add(slugs, source, cfg, limit):
                          if r["ats"] and r["slug"] and r["status"] not in ("paused", "not_found")])
     n = export_csv(con, DATA / "open_matches.csv", "match=1 AND open=1 AND status!='skip'")
     print(f"Added {added} companies with matching roles. {n} open matches total -> data/open_matches.csv")
+
+
+def any_general_role(jobs, cfg):
+    """True if a matching role is a sales/ops/strategy/data/FP&A role that fits at any company,
+    so non-finance companies still get added for those roles (config: general_titles)."""
+    terms = cfg.get("general_titles", [])
+    return any(_has_any(j["title"].lower(), terms) for j in jobs)
 
 
 def in_industry(jobs, cfg):
