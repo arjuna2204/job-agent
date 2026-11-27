@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earnings Intel · See what changed in every earnings report</title>
+<meta name="description" content="Earnings Intel reads SEC filings and earnings calls, shows what changed between any two quarters with a source for every claim, and does the analyst math for free.">
+<meta property="og:title" content="Earnings Intel">
+<meta property="og:description" content="Finance sites show you the numbers. Earnings Intel explains what changed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#FAF8F4;--card:#FFFFFF;--ink:#0B1F3A;--body:#3E4A5C;--muted:#667085;--line:#E6E1D8;--navy:#0B1F3A;--accent:#0E7C66;--accent-bg:#E6F2EE;--sand:#F1ECE3;--down:#B4432A;--down-bg:#FBEDE8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground)}
+a{color:var(--ink)}a:hover{color:var(--accent)}
+:focus-visible{outline:3px solid #0E7C66;outline-offset:2px}
+@keyframes up{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+.up{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+.btn{display:inline-flex;align-items:center;min-height:52px;padding:0 26px;border-radius:999px;font-weight:600;text-decoration:none;transition:transform .15s ease,background-color .15s ease}
+.btn:active{transform:scale(.98)}
+.btn-dark{background:var(--navy);color:#FFFFFF}.btn-dark:hover{background:#163257;color:#FFFFFF}
+.btn-line{border:1px solid #C9C2B5;color:var(--ink)}.btn-line:hover{background:#FFFFFF}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:10px;transition:transform .2s ease,box-shadow .2s ease}
+@media (hover:hover){.card:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(11,31,58,.08)}}
+@media (prefers-reduced-motion:reduce){.up{animation:none}.card,.btn{transition:none}.card:hover{transform:none}}
+@media (max-width:640px){h1{font-size:42px!important}h2{font-size:34px!important}}
+</style>
+</head>
+<body>
+<div style="font-family: 'Hanken Grotesk', sans-serif; color: var(--body); background: var(--ground); width: 100%; font-size: 17px; line-height: 1.6">
+
+<header style="background: var(--ground); border-bottom: 1px solid var(--line)">
+<nav style="max-width: 1200px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between">
+<span style="display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; color: var(--ink); letter-spacing: -0.01em"><span aria-hidden="true" style="width: 26px; height: 26px; border-radius: 6px; background: var(--accent); display: inline-flex; align-items: center; justify-content: center; color: #FFFFFF; font-size: 14px">E</span>Earnings Intel</span>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center; font-size: 15px; font-weight: 500">
+<a href="#how" style="text-decoration: none">How it works</a>
+<a href="#why" style="text-decoration: none">Why it's different</a>
+<a href="#faq" style="text-decoration: none">FAQ</a>
+<a href="https://earnings-intel-eight.vercel.app" style="display: inline-flex; align-items: center; min-height: 42px; padding: 0 18px; background: var(--navy); color: #FFFFFF; border-radius: 999px; font-weight: 600; text-decoration: none">Try the beta</a>
+</div>
+</nav>
+</header>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 88px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 480px; display: flex; flex-direction: column; gap: 24px">
+<span class="up" style="align-self: flex-start; padding: 6px 14px; background: var(--sand); border-radius: 999px; font-size: 14px; font-weight: 500; color: var(--ink)">In development · Live beta</span>
+<h1 class="up" style="margin: 0; font-family: 'Newsreader', serif; font-weight: 400; font-size: 64px; line-height: 1.05; letter-spacing: -0.02em; color: var(--ink); animation-delay: .08s">Finance sites show you the numbers. This explains what changed.</h1>
+<p class="up" style="margin: 0; font-size: 19px; color: var(--body); max-width: 540px; animation-delay: .16s">Earnings Intel reads a company's SEC filings and earnings calls, compares any two quarters side by side, and does the analyst math that usually sits behind a paywall.</p>
+<div class="up" style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; animation-delay: .24s">
+<a class="btn btn-dark" href="https://earnings-intel-eight.vercel.app">Try the beta</a>
+<a class="btn btn-line" href="#how">See how it works</a>
+</div>
+<span class="up" style="font-size: 14px; color: var(--muted); animation-delay: .3s">Free to use. No account needed.</span>
+</div>
+
+<div class="up" style="flex: 1 1 440px; animation-delay: .2s">
+<div style="background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 24px 60px rgba(11,31,58,0.10); overflow: hidden">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: center; padding: 18px 22px; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-weight: 600; color: var(--ink)">What changed · Q3 vs Q2</span><span style="font-size: 13px; color: var(--muted)">From the 10-Q and earnings call</span></div>
+<span style="font-size: 13px; font-weight: 600; color: var(--accent); background: var(--accent-bg); padding: 4px 10px; border-radius: 999px">3 changes</span>
+</div>
+<div style="padding: 16px 22px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; gap: 10px; align-items: center"><span style="font-size: 12px; font-weight: 700; color: var(--accent); background: var(--accent-bg); padding: 2px 8px; border-radius: 999px">Guidance</span><span style="font-weight: 600; color: var(--ink)">Full-year revenue outlook raised</span></div>
+<span style="font-size: 13px; color: var(--muted)">Source: earnings call, CFO remarks</span>
+</div>
+<div style="padding: 16px 22px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; gap: 10px; align-items: center"><span style="font-size: 12px; font-weight: 700; color: var(--down); background: var(--down-bg); padding: 2px 8px; border-radius: 999px">New risk</span><span style="font-weight: 600; color: var(--ink)">Customer concentration added to risk factors</span></div>
+<span style="font-size: 13px; color: var(--muted)">Source: 10-Q, Item 1A</span>
+</div>
+<div style="padding: 16px 22px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; gap: 10px; align-items: center"><span style="font-size: 12px; font-weight: 700; color: var(--ink); background: var(--sand); padding: 2px 8px; border-radius: 999px">Margins</span><span style="font-weight: 600; color: var(--ink)">Gross margin down on higher input costs</span></div>
+<span style="font-size: 13px; color: var(--muted)">Source: 10-Q, MD&amp;A</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; padding: 16px 22px; background: #FCFBF8">
+<span style="font-size: 14px; color: var(--body)">Fair value: bull · base · bear</span>
+<span style="font-size: 14px; font-weight: 600; color: var(--ink)">Export DCF to Excel</span>
+</div>
+</div>
+<p style="margin: 10px 0 0; font-size: 12px; color: var(--muted); text-align: center">Illustrative example</p>
+</div>
+</section>
+
+<section style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--card)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 12px 40px; align-items: center; justify-content: space-between; font-size: 15px; color: var(--muted)">
+<span style="font-weight: 600; color: var(--ink)">Best used for</span>
+<div style="display: flex; flex-wrap: wrap; gap: 12px 36px; font-weight: 600; color: #5B6577"><span>Right after a report drops</span><span>Before you buy a stock</span><span>Building the numbers for a pitch</span></div>
+</div>
+</section>
+
+<section id="how" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 720px">
+<span style="font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent)">How it works</span>
+<h2 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 400; font-size: 48px; line-height: 1.1; letter-spacing: -0.015em; color: var(--ink)">The filings already say what changed. Most people never read them.</h2>
+<p style="margin: 0; font-size: 18px">Earnings Intel reads them for you and puts the changes next to the numbers.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+<div class="card"><span style="width: 36px; height: 36px; border-radius: 999px; background: var(--sand); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: var(--ink)">1</span><span style="font-size: 21px; font-weight: 600; color: var(--ink)">Pull the filings</span><span>10-Ks, 10-Qs and earnings calls come straight from SEC EDGAR.</span></div>
+<div class="card"><span style="width: 36px; height: 36px; border-radius: 999px; background: var(--sand); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: var(--ink)">2</span><span style="font-size: 21px; font-weight: 600; color: var(--ink)">Find what changed</span><span>New risks, shifts in guidance and tone between any two quarters, each linked to its source.</span></div>
+<div class="card"><span style="width: 36px; height: 36px; border-radius: 999px; background: var(--sand); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: var(--ink)">3</span><span style="font-size: 21px; font-weight: 600; color: var(--ink)">Do the analyst math</span><span>Adjusted earnings, peer benchmarks and a DCF with bull, base and bear cases.</span></div>
+<div class="card"><span style="width: 36px; height: 36px; border-radius: 999px; background: var(--sand); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: var(--ink)">4</span><span style="font-size: 21px; font-weight: 600; color: var(--ink)">Update every day</span><span>An automated pipeline refreshes prices and filings each night.</span></div>
+</div>
+</section>
+
+<section id="why" style="background: var(--navy); color: #D7DEE8">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 380px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #8FD3C1">Why it's different</span>
+<h2 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 400; font-size: 48px; line-height: 1.1; color: #FFFFFF">Built for the question after "what's the price?"</h2>
+<p style="margin: 0; font-size: 18px; color: #B9C4D3">Quote sites are great for prices and charts. Earnings Intel is for understanding the story behind them.</p>
+</div>
+<div style="flex: 1 1 520px; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 32px">
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">Any two quarters</div><div style="color: #B9C4D3">Pick the periods you care about, not just the latest one.</div></div>
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">A source for every claim</div><div style="color: #B9C4D3">Each change points back to the filing or call it came from.</div></div>
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">Analyst math, free</div><div style="color: #B9C4D3">Valuation cases you can adjust and export to Excel.</div></div>
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">Primary data</div><div style="color: #B9C4D3">Built on SEC filings, not secondhand summaries.</div></div>
+</div>
+</div>
+</section>
+
+<section id="faq" style="background: var(--card); border-bottom: 1px solid var(--line)">
+<div style="max-width: 860px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column">
+<h2 style="margin: 0 0 24px; font-family: 'Newsreader', serif; font-weight: 400; font-size: 40px; color: var(--ink)">Frequently asked questions</h2>
+<div style="border-top: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">Is it finished?</div><div style="margin-top: 6px">Not yet. The beta is live and updates daily, and new features are still being added.</div></div>
+<div style="border-top: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">Is this investment advice?</div><div style="margin-top: 6px">No. It's a research tool that organizes public filings. Always do your own research.</div></div>
+<div style="border-top: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">What is it built with?</div><div style="margin-top: 6px">Next.js, Python, Supabase, the Claude API and GitHub Actions, on data from SEC EDGAR. The code is <a href="https://github.com/arjuna2204/earnings-intel">open on GitHub</a>.</div></div>
+<div style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">Who built Earnings Intel?</div><div style="margin-top: 6px">Arjun Agarwal, a finance associate who wanted a faster way to read earnings. <a href="https://www.linkedin.com/in/arjun-agarwal22/">Connect on LinkedIn</a></div></div>
+</div>
+</section>
+
+<section style="background: var(--sand)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 32px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+<h2 style="margin: 0; max-width: 640px; font-family: 'Newsreader', serif; font-weight: 400; font-size: 44px; line-height: 1.1; color: var(--ink)">Next earnings report, know what changed in minutes.</h2>
+<a class="btn btn-dark" href="https://earnings-intel-eight.vercel.app" style="min-height: 54px; padding: 0 28px">Try the beta</a>
+</div>
+</section>
+
+<footer style="border-top: 1px solid var(--line)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 12px 32px; justify-content: space-between; font-size: 14px; color: var(--muted)">
+<span>© Earnings Intel</span>
+<div style="display: flex; flex-wrap: wrap; gap: 24px"><a href="/" style="text-decoration: none; color: var(--muted)">Arjun Agarwal</a><a href="https://www.linkedin.com/in/arjun-agarwal22/" style="text-decoration: none; color: var(--muted)">LinkedIn</a><a href="https://github.com/arjuna2204/earnings-intel" style="text-decoration: none; color: var(--muted)">GitHub</a></div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>

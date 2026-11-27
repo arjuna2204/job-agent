@@ -2,6 +2,15 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/job-agent", "destination": "/jobagent", "permanent": true }
+    {
+      "source": "/job-agent",
+      "destination": "/jobagent",
+      "permanent": true
+    },
+    {
+      "source": "/earnings-intel",
+      "destination": "/earningsintel",
+      "permanent": true
+    }
   ]
 }
