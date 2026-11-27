@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Agent · Find and apply to new roles faster</title>
+<meta name="description" content="Job Agent finds new entry-level finance, fintech and sales roles the day they're posted, shortlists the ones you qualify for, and completes the applications you approve.">
+<meta property="og:title" content="Job Agent">
+<meta property="og:description" content="Your job search, run like a well-managed pipeline.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#FAF8F4;--card:#FFFFFF;--ink:#0B1F3A;--body:#3E4A5C;--muted:#667085;--line:#E6E1D8;--navy:#0B1F3A;--accent:#0E7C66;--accent-bg:#E6F2EE;--sand:#F1ECE3}
+body{margin:0;background:var(--ground)}
+a{color:var(--ink)}a:hover{color:var(--accent)}
+button,input,select{font-family:inherit}
+@keyframes up{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+.up{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+@media (prefers-reduced-motion:reduce){.up{animation:none}}
+
+.chip{min-height:42px;padding:0 16px;border-radius:999px;font-size:15px;font-weight:500;cursor:pointer;background:#FFFFFF;color:#0B1F3A;border:1px solid #D5CEC2}
+.chip.on{background:#0B1F3A;color:#FFFFFF;border-color:#0B1F3A}
+.approve{min-height:40px;padding:0 16px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer;background:#FFFFFF;color:#0B1F3A;border:1px solid #D5CEC2}
+.approve.on{background:#E6F2EE;color:#0B5A4A;border-color:#0E7C66}
+*{box-sizing:border-box}
+:focus-visible{outline:3px solid #0E7C66;outline-offset:2px}
+@media (max-width:640px){h1{font-size:42px!important}h2{font-size:34px!important}}
+</style>
+</head>
+<body>
+<div style="font-family: 'Hanken Grotesk', sans-serif; color: var(--body); background: var(--ground); width: 100%; font-size: 17px; line-height: 1.6">
+
+<header style="background: var(--ground); border-bottom: 1px solid var(--line)">
+<nav style="max-width: 1200px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between">
+<span style="display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; color: var(--ink); letter-spacing: -0.01em"><span aria-hidden="true" style="width: 26px; height: 26px; border-radius: 6px; background: var(--navy); display: inline-flex; align-items: center; justify-content: center; color: #FFFFFF; font-size: 14px">J</span>Job Agent</span>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center; font-size: 15px; font-weight: 500">
+<a href="#how" style="text-decoration: none">How it works</a>
+<a href="#trust" style="text-decoration: none">Security</a>
+<a href="#faq" style="text-decoration: none">FAQ</a>
+<a href="#start" style="display: inline-flex; align-items: center; min-height: 42px; padding: 0 18px; background: var(--navy); color: #FFFFFF; border-radius: 999px; font-weight: 600; text-decoration: none">Request early access</a>
+</div>
+</nav>
+</header>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 88px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 480px; display: flex; flex-direction: column; gap: 24px">
+<span class="up" style="align-self: flex-start; padding: 6px 14px; background: var(--sand); border-radius: 999px; font-size: 14px; font-weight: 500; color: var(--ink)">For early-career finance, fintech and sales candidates</span>
+<h1 class="up" style="margin: 0; font-family: 'Newsreader', serif; font-weight: 400; font-size: 64px; line-height: 1.05; letter-spacing: -0.02em; color: var(--ink); animation-delay: .08s">Your job search, run like a well-managed pipeline.</h1>
+<p class="up" style="margin: 0; font-size: 19px; color: var(--body); max-width: 540px; animation-delay: .16s">Job Agent finds new roles the day they're posted, shortlists the ones you qualify for, and completes applications you approve. Less time on forms, more time preparing for interviews.</p>
+<div class="up" style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; animation-delay: .24s">
+<a href="#start" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; background: var(--navy); color: #FFFFFF; border-radius: 999px; font-weight: 600; text-decoration: none">Request early access</a>
+<a href="#how" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 22px; border: 1px solid #C9C2B5; color: var(--ink); border-radius: 999px; font-weight: 600; text-decoration: none">See how it works</a>
+</div>
+<span class="up" style="font-size: 14px; color: var(--muted); animation-delay: .3s">Now in early access. You approve every application.</span>
+</div>
+
+<div class="up" style="flex: 1 1 440px; animation-delay: .2s">
+<div style="background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 24px 60px rgba(11,31,58,0.10); overflow: hidden">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: center; padding: 18px 22px; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-weight: 600; color: var(--ink)">Today's shortlist</span><span style="font-size: 13px; color: var(--muted)">4 new roles that match your profile</span></div>
+<span style="font-size: 13px; font-weight: 600; color: var(--accent); background: var(--accent-bg); padding: 4px 10px; border-radius: 999px">Updated 12:00 PM</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-weight: 600; color: var(--ink); font-size: 16px">Analyst, Capital Markets</span><span style="font-size: 13px; color: var(--muted)">Fintech lender · New York · Posted today</span></div>
+<div style="display: flex; gap: 12px; align-items: center"><span style="font-size: 13px; font-weight: 600; color: var(--accent)">Strong fit</span><button type="button" class="approve on" aria-pressed="true">Approved</button></div>
+</div><div style="display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-weight: 600; color: var(--ink); font-size: 16px">Credit Analyst</span><span style="font-size: 13px; color: var(--muted)">Private credit fund · New York · 1 day ago</span></div>
+<div style="display: flex; gap: 12px; align-items: center"><span style="font-size: 13px; font-weight: 600; color: var(--accent)">Strong fit</span><button type="button" class="approve" aria-pressed="false">Approve</button></div>
+</div><div style="display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-weight: 600; color: var(--ink); font-size: 16px">Business Development Representative</span><span style="font-size: 13px; color: var(--muted)">B2B software · New York · 2 days ago</span></div>
+<div style="display: flex; gap: 12px; align-items: center"><span style="font-size: 13px; font-weight: 600; color: var(--accent)">Good fit</span><button type="button" class="approve" aria-pressed="false">Approve</button></div>
+</div><div style="display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-weight: 600; color: var(--ink); font-size: 16px">Investor Relations Associate</span><span style="font-size: 13px; color: var(--muted)">Asset manager · Boston · 3 days ago</span></div>
+<div style="display: flex; gap: 12px; align-items: center"><span style="font-size: 13px; font-weight: 600; color: var(--accent)">Good fit</span><button type="button" class="approve" aria-pressed="false">Approve</button></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; padding: 16px 22px; background: #FCFBF8">
+<span style="font-size: 14px; color: var(--body)"><span id="approvedText">1 approved and ready to submit</span></span>
+<button type="button" id="sendBtn" style="min-height: 44px; padding: 0 18px; background: var(--navy); color: #FFFFFF; border: 0; border-radius: 999px; font-weight: 600; font-size: 14px; cursor: pointer">Submit approved</button>
+</div>
+<div id="sentMsg" hidden style="padding: 12px 22px 16px; font-size: 14px; color: var(--accent); background: #FCFBF8">Demo only. In Job Agent, you get a confirmation for each role submitted.</div>
+</div>
+<p style="margin: 10px 0 0; font-size: 12px; color: var(--muted); text-align: center">Illustrative example</p>
+</div>
+</section>
+
+<section style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--card)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 12px 40px; align-items: center; justify-content: space-between; font-size: 15px; color: var(--muted)">
+<span style="font-weight: 600; color: var(--ink)">Works with the career sites employers already use</span>
+<div style="display: flex; flex-wrap: wrap; gap: 12px 36px; font-weight: 600; color: #8A93A3"><span>Greenhouse</span><span>Ashby</span><span>Lever</span><span>Workable</span><span>Workday*</span></div>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px">
+<div style="border-top: 2px solid var(--ink); padding-top: 18px"><div style="font-family: 'Newsreader', serif; font-size: 56px; line-height: 1; color: var(--ink)">200+</div><div style="margin-top: 10px; color: var(--body)">company career pages reviewed every run</div></div>
+<div style="border-top: 2px solid var(--ink); padding-top: 18px"><div style="font-family: 'Newsreader', serif; font-size: 56px; line-height: 1; color: var(--ink)">2×</div><div style="margin-top: 10px; color: var(--body)">daily updates, at noon and 6 PM</div></div>
+<div style="border-top: 2px solid var(--ink); padding-top: 18px"><div style="font-family: 'Newsreader', serif; font-size: 56px; line-height: 1; color: var(--ink)">0</div><div style="margin-top: 10px; color: var(--body)">duplicate applications</div></div>
+</section>
+
+<section id="how" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 720px">
+<span style="font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent)">How it works</span>
+<h2 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 400; font-size: 48px; line-height: 1.1; letter-spacing: -0.015em; color: var(--ink)">Many of the best entry-level roles are posted on company career pages first.</h2>
+<p style="margin: 0; font-size: 18px">Job Agent monitors those pages directly, so you see openings early, before they're widely circulated.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px">
+<div style="background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 36px; height: 36px; border-radius: 999px; background: var(--sand); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: var(--ink)">1</span><span style="font-size: 21px; font-weight: 600; color: var(--ink)">Set your preferences</span><span>Choose role types, locations and experience level, then upload your resume. About two minutes.</span></div>
+<div style="background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 36px; height: 36px; border-radius: 999px; background: var(--sand); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: var(--ink)">2</span><span style="font-size: 21px; font-weight: 600; color: var(--ink)">Review your shortlist</span><span>Roles posted in the last week that match your qualifications, ranked by fit.</span></div>
+<div style="background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 36px; height: 36px; border-radius: 999px; background: var(--sand); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: var(--ink)">3</span><span style="font-size: 21px; font-weight: 600; color: var(--ink)">Approve and submit</span><span>Job Agent completes each application with your details and confirms what was sent.</span></div>
+</div>
+</section>
+
+<section id="trust" style="background: var(--navy); color: #D7DEE8">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 380px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #8FD3C1">Control and privacy</span>
+<h2 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 400; font-size: 48px; line-height: 1.1; color: #FFFFFF">Built to represent you well.</h2>
+<p style="margin: 0; font-size: 18px; color: #B9C4D3">Every application is reviewed by you and submitted the way you would submit it yourself.</p>
+</div>
+<div style="flex: 1 1 520px; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 32px">
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">Your approval, every time</div><div style="color: #B9C4D3">Nothing is submitted without your sign-off.</div></div>
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">No duplicate applications</div><div style="color: #B9C4D3">Every submission is logged so each role is applied to once.</div></div>
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">Respects employer policies</div><div style="color: #B9C4D3">Honors application limits and site verification steps.</div></div>
+<div><div style="font-weight: 600; color: #FFFFFF; font-size: 18px">Your information stays private</div><div style="color: #B9C4D3">Salary targets are never shared, and you control your own sign-ins.</div></div>
+</div>
+</div>
+</section>
+
+<section id="start" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
+<div style="flex: 1 1 360px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 400; font-size: 48px; line-height: 1.1; color: var(--ink)">Request early access.</h2>
+<p style="margin: 0; font-size: 18px">Job Agent is opening to a small group of early users. Tell us what you're looking for and we'll be in touch.</p>
+</div>
+<div style="flex: 1 1 520px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="font-weight: 600; color: var(--ink); font-size: 15px">Role types</span><div style="display: flex; flex-wrap: wrap; gap: 8px"><button type="button" class="chip on" data-group="roles" aria-pressed="true">Finance</button><button type="button" class="chip on" data-group="roles" aria-pressed="true">Fintech</button><button type="button" class="chip" data-group="roles" aria-pressed="false">Sales and GTM</button><button type="button" class="chip" data-group="roles" aria-pressed="false">Capital markets</button><button type="button" class="chip" data-group="roles" aria-pressed="false">Operations</button><button type="button" class="chip" data-group="roles" aria-pressed="false">Investor relations</button></div></div>
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="font-weight: 600; color: var(--ink); font-size: 15px">Locations</span><div style="display: flex; flex-wrap: wrap; gap: 8px"><button type="button" class="chip on" data-group="cities" aria-pressed="true">New York</button><button type="button" class="chip" data-group="cities" aria-pressed="false">Boston</button><button type="button" class="chip" data-group="cities" aria-pressed="false">Chicago</button><button type="button" class="chip" data-group="cities" aria-pressed="false">San Francisco</button><button type="button" class="chip" data-group="cities" aria-pressed="false">Austin</button><button type="button" class="chip" data-group="cities" aria-pressed="false">Remote</button></div></div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<div style="flex: 1 1 220px; display: flex; flex-direction: column; gap: 8px"><label for="v4exp" style="font-weight: 600; color: var(--ink); font-size: 15px">Experience</label><select id="v4exp" style="min-height: 48px; background: #FFFFFF; color: var(--ink); border: 1px solid #D5CEC2; border-radius: 10px; padding: 0 12px; font-size: 16px"><option>Recent graduate (0–1 years)</option><option>1–3 years</option><option>3–5 years</option></select></div>
+<div style="flex: 1 1 220px; display: flex; flex-direction: column; gap: 8px"><label for="v4email" style="font-weight: 600; color: var(--ink); font-size: 15px">Email</label><input id="v4email" type="email" placeholder="name@email.com" style="min-height: 48px; background: #FFFFFF; color: var(--ink); border: 1px solid #D5CEC2; border-radius: 10px; padding: 0 12px; font-size: 16px"></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 600; color: var(--ink); font-size: 15px">Resume</span>
+<label for="v4resume" style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; border: 1px dashed #C9C2B5; border-radius: 12px; padding: 20px; background: #FCFBF8; cursor: pointer"><span style="color: var(--body)"><span id="resumeLabel">Drag your resume here, or browse files</span></span><span style="font-weight: 600; color: var(--accent)">Upload PDF</span></label>
+<input id="v4resume" type="file" accept=".pdf,.doc,.docx"  style="position: absolute; width: 1px; height: 1px; opacity: 0"></div>
+<button type="button" id="requestBtn" style="min-height: 54px; background: var(--navy); color: #FFFFFF; border: 0; border-radius: 999px; font-weight: 600; font-size: 17px; cursor: pointer">Request early access</button>
+<p id="formError" role="alert" hidden style="margin: 0; color: #B42318; font-size: 14px; text-align: center"></p>
+<span style="text-align: center; font-size: 13px; color: var(--muted)">Opens a pre-filled email. Attach your resume before sending.</span>
+</div>
+</section>
+
+<section id="faq" style="background: var(--card); border-top: 1px solid var(--line)">
+<div style="max-width: 860px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column">
+<h2 style="margin: 0 0 24px; font-family: 'Newsreader', serif; font-weight: 400; font-size: 40px; color: var(--ink)">Frequently asked questions</h2>
+<div style="border-top: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">How is this different from applying in bulk?</div><div style="margin-top: 6px">Job Agent only surfaces roles you qualify for, and nothing is submitted until you approve it. The goal is fewer, better-targeted applications.</div></div>
+<div style="border-top: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">Which employers are supported?</div><div style="margin-top: 6px">Most company career sites, including those on Greenhouse, Ashby and Lever. *For employers that require your own account, such as many on Workday, you receive a direct link to finish in a few minutes.</div></div>
+<div style="border-top: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">What does it cost?</div><div style="margin-top: 6px">Early access is free while we finalize pricing.</div></div>
+<div style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 22px 0"><div style="font-weight: 600; color: var(--ink); font-size: 18px">Who built Job Agent?</div><div style="margin-top: 6px">Arjun Agarwal, a finance graduate who built it for his own search. <a href="https://www.linkedin.com/in/arjun-agarwal22/">Connect on LinkedIn</a></div></div>
+</div>
+</section>
+
+<section style="background: var(--sand)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 32px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+<h2 style="margin: 0; max-width: 640px; font-family: 'Newsreader', serif; font-weight: 400; font-size: 44px; line-height: 1.1; color: var(--ink)">New roles are posted every day. Be among the first to apply.</h2>
+<a href="#start" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 28px; background: var(--navy); color: #FFFFFF; border-radius: 999px; font-weight: 600; text-decoration: none">Request early access</a>
+</div>
+</section>
+
+<footer style="border-top: 1px solid var(--line)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 12px 32px; justify-content: space-between; font-size: 14px; color: var(--muted)">
+<span>© Job Agent</span>
+<div style="display: flex; flex-wrap: wrap; gap: 24px"><a href="/" style="text-decoration: none; color: var(--muted)">Arjun Agarwal</a><a href="https://www.linkedin.com/in/arjun-agarwal22/" style="text-decoration: none; color: var(--muted)">LinkedIn</a><a href="mailto:Arjuna2204@gmail.com" style="text-decoration: none; color: var(--muted)">Contact</a></div>
+</div>
+</footer>
+
+</div>
+<script>
+document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{b.classList.toggle('on');b.setAttribute('aria-pressed',b.classList.contains('on'))}));
+const approves=[...document.querySelectorAll('.approve')];
+function upd(){const n=approves.filter(b=>b.classList.contains('on')).length;document.getElementById('approvedText').textContent=n?n+' approved and ready to submit':'Approve the roles you want to apply to.';document.getElementById('sentMsg').hidden=true}
+approves.forEach(b=>b.addEventListener('click',()=>{b.classList.toggle('on');const on=b.classList.contains('on');b.textContent=on?'Approved':'Approve';b.setAttribute('aria-pressed',on);upd()}));
+document.getElementById('sendBtn').addEventListener('click',()=>{if(approves.some(b=>b.classList.contains('on')))document.getElementById('sentMsg').hidden=false});
+const rf=document.getElementById('v4resume');rf.addEventListener('change',()=>{document.getElementById('resumeLabel').textContent=rf.files[0]?rf.files[0].name+' (attach it to the email)':'Drag your resume here, or browse files'});
+const em=document.getElementById('v4email'),err=document.getElementById('formError');em.addEventListener('input',()=>{err.hidden=true});
+document.getElementById('requestBtn').addEventListener('click',()=>{
+ const email=em.value.trim();if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){err.textContent='Enter a valid email so we can reach you.';err.hidden=false;em.focus();return}
+ const pick=g=>[...document.querySelectorAll('.chip.on[data-group="'+g+'"]')].map(b=>b.textContent).join(', ')||'Any';
+ const bodyTxt='Email: '+email+'\nRole types: '+pick('roles')+'\nLocations: '+pick('cities')+'\nExperience: '+document.getElementById('v4exp').value+'\n\n(Resume attached)';
+ location.href='mailto:Arjuna2204@gmail.com?subject='+encodeURIComponent('Job Agent early access')+'&body='+encodeURIComponent(bodyTxt);
+});
+</script>
+</body>
+</html>

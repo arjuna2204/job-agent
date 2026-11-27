@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/job-agent", "destination": "/jobagent", "permanent": true }
+  ]
+}
