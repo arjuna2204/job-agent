@@ -113,7 +113,7 @@ Lunar,ashby,lunar,seed,ok,2026-11-19
 Trading 212,ashby,trading212,seed,ok,2026-11-19
 Allica Bank,ashby,allica-bank,seed,ok,2026-11-19
 Thought Machine,ashby,thought-machine,seed,ok,2026-11-19
-Synthesia,ashby,synthesia,seed,paused,2026-11-19
+Synthesia,ashby,synthesia,seed,ok,2026-11-19
 11FS,,,seed,not_found,2026-11-19
 Marqeta,,,seed,not_found,2026-11-19
 Affirm,greenhouse,affirm,seed,ok,2026-11-19
@@ -123,7 +123,7 @@ Nubank,ashby,nubank,seed,ok,2026-11-19
 Toast,greenhouse,toast,seed,ok,2026-11-19
 Gusto,greenhouse,gusto,seed,ok,2026-11-19
 Deel,ashby,deel,seed,ok,2026-11-19
-Remote,greenhouse,remote,seed,paused,2026-11-19
+Remote,greenhouse,remote,seed,ok,2026-11-19
 Modern Life,lever,modernlife,seed,ok,2026-11-19
 Stash,ashby,stash,seed,ok,2026-11-19
 Acorns,ashby,acorns,seed,ok,2026-11-19
@@ -144,8 +144,8 @@ Finix,lever,finix,seed,ok,2026-11-19
 Rainforest,,,seed,not_found,2026-11-19
 Stax,lever,stax,seed,ok,2026-11-19
 Spade,ashby,spade,seed,ok,2026-11-19
-Sila,lever,sila,seed,paused,2026-11-19
-Hightouch,ashby,hightouch,seed,paused,2026-11-19
+Sila,lever,sila,seed,ok,2026-11-19
+Hightouch,ashby,hightouch,seed,ok,2026-11-19
 Coinflow,ashby,Coinflow,web-search,ok,2026-11-19
 Wealthsimple,ashby,wealthsimple,web-search,ok,2026-11-19
 FT Partners,greenhouse,financialtechnologypartners,web-search,ok,2026-11-19
@@ -175,70 +175,70 @@ Arca,ashby,arca,web-search,ok,2026-11-19
 Modulr Finance,greenhouse,modulrfinance,web-search,ok,2026-11-19
 Agora,,,web-search,not_found,2026-11-19
 Attain,greenhouse,attain,web-search,ok,2026-11-19
-Blackpoint Cyber,ashby,Blackpoint Cyber,commoncrawl,paused,2026-11-19
-Carwow,ashby,Carwow,commoncrawl,paused,2026-11-19
-Clera,ashby,Clera,commoncrawl,paused,2026-11-19
-ElevenLabs,ashby,ElevenLabs,commoncrawl,paused,2026-11-19
-Flock Safety,ashby,Flock Safety,commoncrawl,paused,2026-11-19
+Blackpoint Cyber,ashby,Blackpoint Cyber,commoncrawl,ok,2026-11-19
+Carwow,ashby,Carwow,commoncrawl,ok,2026-11-19
+Clera,ashby,Clera,commoncrawl,ok,2026-11-19
+ElevenLabs,ashby,ElevenLabs,commoncrawl,ok,2026-11-19
+Flock Safety,ashby,Flock Safety,commoncrawl,ok,2026-11-19
 Forward Financing,ashby,Forward Financing,commoncrawl,ok,2026-11-19
-Headway,ashby,Headway,commoncrawl,paused,2026-11-19
-HighlightTA,ashby,HighlightTA,commoncrawl,paused,2026-11-19
-Jerry.ai,ashby,Jerry.ai,commoncrawl,paused,2026-11-19
-Legora,ashby,Legora,commoncrawl,paused,2026-11-19
-Nivoda,ashby,Nivoda,commoncrawl,paused,2026-11-19
-Notion,ashby,Notion,commoncrawl,paused,2026-11-19
-OpenAI,ashby,OpenAI,commoncrawl,paused,2026-11-19
-Redis,ashby,Redis,commoncrawl,paused,2026-11-19
-Skydio,ashby,Skydio,commoncrawl,paused,2026-11-19
-The-Flex,ashby,The-Flex,commoncrawl,paused,2026-11-19
-adaptyv,ashby,adaptyv,commoncrawl,paused,2026-11-19
-alpacahealth,ashby,alpacahealth,commoncrawl,paused,2026-11-19
-ankar,ashby,ankar,commoncrawl,paused,2026-11-19
-aptura,ashby,aptura,commoncrawl,paused,2026-11-19
-armadin,ashby,armadin,commoncrawl,paused,2026-11-19
-atlasonc,ashby,atlasonc,commoncrawl,paused,2026-11-19
-baseten,ashby,baseten,commoncrawl,paused,2026-11-19
-beam-up,ashby,beam-up,commoncrawl,paused,2026-11-19
-canals,ashby,canals,commoncrawl,paused,2026-11-19
-candidhealth,ashby,candidhealth,commoncrawl,paused,2026-11-19
+Headway,ashby,Headway,commoncrawl,ok,2026-11-19
+HighlightTA,ashby,HighlightTA,commoncrawl,ok,2026-11-19
+Jerry.ai,ashby,Jerry.ai,commoncrawl,ok,2026-11-19
+Legora,ashby,Legora,commoncrawl,ok,2026-11-19
+Nivoda,ashby,Nivoda,commoncrawl,ok,2026-11-19
+Notion,ashby,Notion,commoncrawl,ok,2026-11-19
+OpenAI,ashby,OpenAI,commoncrawl,ok,2026-11-19
+Redis,ashby,Redis,commoncrawl,ok,2026-11-19
+Skydio,ashby,Skydio,commoncrawl,ok,2026-11-19
+The-Flex,ashby,The-Flex,commoncrawl,ok,2026-11-19
+adaptyv,ashby,adaptyv,commoncrawl,ok,2026-11-19
+alpacahealth,ashby,alpacahealth,commoncrawl,ok,2026-11-19
+ankar,ashby,ankar,commoncrawl,ok,2026-11-19
+aptura,ashby,aptura,commoncrawl,ok,2026-11-19
+armadin,ashby,armadin,commoncrawl,ok,2026-11-19
+atlasonc,ashby,atlasonc,commoncrawl,ok,2026-11-19
+baseten,ashby,baseten,commoncrawl,ok,2026-11-19
+beam-up,ashby,beam-up,commoncrawl,ok,2026-11-19
+canals,ashby,canals,commoncrawl,ok,2026-11-19
+candidhealth,ashby,candidhealth,commoncrawl,ok,2026-11-19
 chainalysis-careers,ashby,chainalysis-careers,commoncrawl,ok,2026-11-19
-checkatrade,ashby,checkatrade,commoncrawl,paused,2026-11-19
+checkatrade,ashby,checkatrade,commoncrawl,ok,2026-11-19
 checkout.com,ashby,checkout.com,commoncrawl,ok,2026-11-19
-claylabs,ashby,claylabs,commoncrawl,paused,2026-11-19
-clipboard,ashby,clipboard,commoncrawl,paused,2026-11-19
-code-metal,ashby,code-metal,commoncrawl,paused,2026-11-19
-codes-health,ashby,codes-health,commoncrawl,paused,2026-11-19
-conveo,ashby,conveo,commoncrawl,paused,2026-11-19
-creatoriq,ashby,creatoriq,commoncrawl,paused,2026-11-19
-curri,ashby,curri,commoncrawl,paused,2026-11-19
-decagon,ashby,decagon,commoncrawl,paused,2026-11-19
-deliveroo,ashby,deliveroo,commoncrawl,paused,2026-11-19
-double,ashby,double,commoncrawl,paused,2026-11-19
-eightsleep,ashby,eightsleep,commoncrawl,paused,2026-11-19
-eneba,ashby,eneba,commoncrawl,paused,2026-11-19
-exa,ashby,exa,commoncrawl,paused,2026-11-19
-faculty,ashby,faculty,commoncrawl,paused,2026-11-19
-finni-health,ashby,finni-health,commoncrawl,paused,2026-11-19
-flai,ashby,flai,commoncrawl,paused,2026-11-19
-flashpoint.io,ashby,flashpoint.io,commoncrawl,paused,2026-11-19
-footprint,ashby,footprint,commoncrawl,paused,2026-11-19
+claylabs,ashby,claylabs,commoncrawl,ok,2026-11-19
+clipboard,ashby,clipboard,commoncrawl,ok,2026-11-19
+code-metal,ashby,code-metal,commoncrawl,ok,2026-11-19
+codes-health,ashby,codes-health,commoncrawl,ok,2026-11-19
+conveo,ashby,conveo,commoncrawl,ok,2026-11-19
+creatoriq,ashby,creatoriq,commoncrawl,ok,2026-11-19
+curri,ashby,curri,commoncrawl,ok,2026-11-19
+decagon,ashby,decagon,commoncrawl,ok,2026-11-19
+deliveroo,ashby,deliveroo,commoncrawl,ok,2026-11-19
+double,ashby,double,commoncrawl,ok,2026-11-19
+eightsleep,ashby,eightsleep,commoncrawl,ok,2026-11-19
+eneba,ashby,eneba,commoncrawl,ok,2026-11-19
+exa,ashby,exa,commoncrawl,ok,2026-11-19
+faculty,ashby,faculty,commoncrawl,ok,2026-11-19
+finni-health,ashby,finni-health,commoncrawl,ok,2026-11-19
+flai,ashby,flai,commoncrawl,ok,2026-11-19
+flashpoint.io,ashby,flashpoint.io,commoncrawl,ok,2026-11-19
+footprint,ashby,footprint,commoncrawl,ok,2026-11-19
 fundingcircle,ashby,fundingcircle,commoncrawl,ok,2026-11-19
-grow-therapy,ashby,grow-therapy,commoncrawl,paused,2026-11-19
+grow-therapy,ashby,grow-therapy,commoncrawl,ok,2026-11-19
 hanover-park,ashby,hanover-park,commoncrawl,ok,2026-11-19
-harvey,ashby,harvey,commoncrawl,paused,2026-11-19
+harvey,ashby,harvey,commoncrawl,ok,2026-11-19
 highbeam,ashby,highbeam,commoncrawl,ok,2026-11-19
-honeydew,ashby,honeydew,commoncrawl,paused,2026-11-19
-illumio,ashby,illumio,commoncrawl,paused,2026-11-19
-imubiosciences,ashby,imubiosciences,commoncrawl,paused,2026-11-19
-irissoftwaregroup,ashby,irissoftwaregroup,commoncrawl,paused,2026-11-19
-ironcladhq,ashby,ironcladhq,commoncrawl,paused,2026-11-19
-jellyfishcareers,ashby,jellyfishcareers,commoncrawl,paused,2026-11-19
+honeydew,ashby,honeydew,commoncrawl,ok,2026-11-19
+illumio,ashby,illumio,commoncrawl,ok,2026-11-19
+imubiosciences,ashby,imubiosciences,commoncrawl,ok,2026-11-19
+irissoftwaregroup,ashby,irissoftwaregroup,commoncrawl,ok,2026-11-19
+ironcladhq,ashby,ironcladhq,commoncrawl,ok,2026-11-19
+jellyfishcareers,ashby,jellyfishcareers,commoncrawl,ok,2026-11-19
 Blockworks,ashby,Blockworks,commoncrawl,ok,2026-11-19
 moss,ashby,moss,commoncrawl,ok,2026-11-19
 oscilar,ashby,oscilar,commoncrawl,ok,2026-11-19
 tempo-xyz,ashby,tempo-xyz,commoncrawl,ok,2026-11-19
 addepar1,greenhouse,addepar1,commoncrawl,ok,2026-11-19
-aircallioinc,greenhouse,aircallioinc,commoncrawl,paused,2026-11-19
+aircallioinc,greenhouse,aircallioinc,commoncrawl,ok,2026-11-19
 Generate Capital,ashby,generate,instinct,ok,2026-11-23
 Solar Landscape,lever,solarlandscape,instinct,ok,2026-11-23
 Meow,ashby,meow,instinct,ok,2026-11-23
@@ -585,3 +585,699 @@ cision,greenhouse,cision,commoncrawl,ok,2026-11-27
 cognism,greenhouse,cognism,commoncrawl,ok,2026-11-27
 deliveroo,greenhouse,deliveroo,commoncrawl,ok,2026-11-27
 dvtrading,greenhouse,dvtrading,commoncrawl,ok,2026-11-27
+Comun,ashby,comun,list-fintech_lists,ok,2026-11-27
+Imprint,ashby,imprint,list-fintech_lists,ok,2026-11-27
+Human Interest,greenhouse,humaninterest,list-fintech_lists,ok,2026-11-27
+Monarch Money,ashby,monarchmoney,list-fintech_lists,ok,2026-11-27
+HoneyBook,ashby,honeybook,list-fintech_lists,ok,2026-11-27
+Maybern,ashby,maybern,list-fintech_lists,ok,2026-11-27
+Antithesis,ashby,antithesis,list-fintech_lists,ok,2026-11-27
+Episode Six,greenhouse,episodesix,list-fintech_lists,ok,2026-11-27
+Honeycomb Insurance,greenhouse,honeycombinsurance,list-fintech_lists,ok,2026-11-27
+Quantifind,greenhouse,quantifind,list-fintech_lists,ok,2026-11-27
+Angle Health,ashby,anglehealth,list-fintech_lists,ok,2026-11-27
+Capitolis,greenhouse,capitolis,list-fintech_lists,ok,2026-11-27
+Collective,ashby,collective,list-fintech_lists,ok,2026-11-27
+Nevis,ashby,nevis,list-fintech_lists,ok,2026-11-27
+Mesh Payments,ashby,mesh,list-fintech_lists,ok,2026-11-27
+Nitra,lever,nitra,list-fintech_lists,ok,2026-11-27
+CertiK,lever,certik,list-fintech_lists,ok,2026-11-27
+inKind,greenhouse,inkind,list-fintech_lists,ok,2026-11-27
+Augustus,ashby,augustus,list-fintech_lists,ok,2026-11-27
+Basic Capital,ashby,basiccapital,list-fintech_lists,ok,2026-11-27
+Monaco,ashby,monaco,list-fintech_lists,ok,2026-11-27
+Homeward,greenhouse,homeward,list-fintech_lists,ok,2026-11-27
+Stand Insurance,ashby,standinsurance,list-fintech_lists,ok,2026-11-27
+Expensify,ashby,expensify,list-fintech_payments_banking,ok,2026-11-27
+Payabli,ashby,payabli,list-fintech_payments_banking,ok,2026-11-27
+Galileo,greenhouse,galileo,list-fintech_payments_banking,ok,2026-11-27
+Found,ashby,found,list-fintech_payments_banking,ok,2026-11-27
+Relay,ashby,relay,list-fintech_payments_banking,ok,2026-11-27
+Earnin,greenhouse,earnin,list-fintech_payments_banking,ok,2026-11-27
+Possible Finance,ashby,possible-finance,list-fintech_payments_banking,ok,2026-11-27
+Mission Lane,greenhouse,missionlane,list-fintech_payments_banking,ok,2026-11-27
+Cardless,ashby,cardless,list-fintech_payments_banking,ok,2026-11-27
+Atlas Card,ashby,atlas,list-fintech_payments_banking,ok,2026-11-27
+Self Financial,greenhouse,selffinancial,list-fintech_payments_banking,ok,2026-11-27
+Tomo,ashby,tomo,list-fintech_payments_banking,ok,2026-11-27
+Point,ashby,point,list-fintech_payments_banking,ok,2026-11-27
+Hometap,greenhouse,hometap,list-fintech_payments_banking,ok,2026-11-27
+Roofstock,greenhouse,roofstock,list-fintech_payments_banking,ok,2026-11-27
+Pacaso,greenhouse,pacaso,list-fintech_payments_banking,ok,2026-11-27
+Happy Money,greenhouse,happymoney,list-fintech_payments_banking,ok,2026-11-27
+Lendbuzz,lever,lendbuzz,list-fintech_payments_banking,ok,2026-11-27
+Oportun,greenhouse,oportun,list-fintech_payments_banking,ok,2026-11-27
+Kiavi,greenhouse,kiavi,list-fintech_payments_banking,ok,2026-11-27
+StartEngine,lever,startengine,list-fintech_payments_banking,ok,2026-11-27
+Pulley,greenhouse,pulley,list-fintech_payments_banking,ok,2026-11-27
+AngelList,lever,angellist,list-fintech_payments_banking,ok,2026-11-27
+Sydecar,ashby,sydecar,list-fintech_payments_banking,ok,2026-11-27
+Passthrough,ashby,passthrough,list-fintech_payments_banking,ok,2026-11-27
+Sezzle,greenhouse,sezzle,list-fintech_payments_banking,ok,2026-11-27
+Nium,lever,nium,list-fintech_payments_banking,ok,2026-11-27
+Orb,ashby,orb,list-fintech_payments_banking,ok,2026-11-27
+Metronome,greenhouse,metronome,list-fintech_payments_banking,ok,2026-11-27
+Anrok,ashby,anrok,list-fintech_payments_banking,ok,2026-11-27
+TaxBit,greenhouse,taxbit,list-fintech_payments_banking,ok,2026-11-27
+Numeral,ashby,numeral,list-fintech_payments_banking,ok,2026-11-27
+Sphere,ashby,sphere,list-fintech_payments_banking,ok,2026-11-27
+BVNK,greenhouse,bvnk,list-fintech_payments_banking,ok,2026-11-27
+Brale,ashby,brale,list-fintech_payments_banking,ok,2026-11-27
+Plasma,ashby,plasma,list-fintech_payments_banking,ok,2026-11-27
+Ondo Finance,greenhouse,ondofinance,list-fintech_payments_banking,ok,2026-11-27
+Securitize,greenhouse,securitize,list-fintech_payments_banking,ok,2026-11-27
+FalconX,greenhouse,falconx,list-fintech_payments_banking,ok,2026-11-27
+BitGo,greenhouse,bitgo,list-fintech_payments_banking,ok,2026-11-27
+Uniswap Labs,ashby,uniswap,list-fintech_payments_banking,ok,2026-11-27
+Consensys,greenhouse,consensys,list-fintech_payments_banking,ok,2026-11-27
+Alchemy,ashby,alchemy,list-fintech_payments_banking,ok,2026-11-27
+Phantom,ashby,phantom,list-fintech_payments_banking,ok,2026-11-27
+MoonPay,lever,moonpay,list-fintech_payments_banking,ok,2026-11-27
+Galaxy,greenhouse,galaxy,list-fintech_payments_banking,ok,2026-11-27
+Elliptic,ashby,elliptic,list-fintech_payments_banking,ok,2026-11-27
+Paradigm,ashby,paradigm,list-fintech_payments_banking,ok,2026-11-27
+DriveWealth,greenhouse,drivewealth,list-fintech_payments_banking,ok,2026-11-27
+Vanilla,ashby,vanilla,list-fintech_payments_banking,ok,2026-11-27
+Trust & Will,greenhouse,trustwill,list-fintech_payments_banking,ok,2026-11-27
+Jump,ashby,jump,list-fintech_payments_banking,ok,2026-11-27
+Zocks,lever,zocks,list-fintech_payments_banking,ok,2026-11-27
+Koyfin,ashby,koyfin,list-fintech_payments_banking,ok,2026-11-27
+Bestow,ashby,bestow,list-fintech_payments_banking,ok,2026-11-27
+Ethos,greenhouse,ethos,list-fintech_payments_banking,ok,2026-11-27
+Lemonade,ashby,lemonade,list-fintech_payments_banking,ok,2026-11-27
+Openly,ashby,openly,list-fintech_payments_banking,ok,2026-11-27
+Branch Insurance,ashby,branchinsurance,list-fintech_payments_banking,ok,2026-11-27
+Pie Insurance,greenhouse,pieinsurance,list-fintech_payments_banking,ok,2026-11-27
+Counterpart,greenhouse,counterpart,list-fintech_payments_banking,ok,2026-11-27
+Federato,greenhouse,federato,list-fintech_payments_banking,ok,2026-11-27
+Sixfold,greenhouse,sixfold,list-fintech_payments_banking,ok,2026-11-27
+Kettle,greenhouse,kettle,list-fintech_payments_banking,ok,2026-11-27
+Pathpoint,ashby,pathpoint,list-fintech_payments_banking,ok,2026-11-27
+Thatch,greenhouse,thatch,list-fintech_payments_banking,ok,2026-11-27
+Forma,ashby,forma,list-fintech_payments_banking,ok,2026-11-27
+Justworks,greenhouse,justworks,list-fintech_payments_banking,ok,2026-11-27
+Oyster,ashby,oyster,list-fintech_payments_banking,ok,2026-11-27
+FloQast,lever,floqast,list-fintech_payments_banking,ok,2026-11-27
+Abacum,ashby,abacum,list-fintech_payments_banking,ok,2026-11-27
+Drivetrain,lever,drivetrain,list-fintech_payments_banking,ok,2026-11-27
+Causal,ashby,causal,list-fintech_payments_banking,ok,2026-11-27
+Datarails,greenhouse,datarails,list-fintech_payments_banking,ok,2026-11-27
+HighRadius,greenhouse,highradius,list-fintech_payments_banking,ok,2026-11-27
+Billtrust,greenhouse,billtrust,list-fintech_payments_banking,ok,2026-11-27
+Versapay,lever,versapay,list-fintech_payments_banking,ok,2026-11-27
+Upflow,ashby,upflow,list-fintech_payments_banking,ok,2026-11-27
+Tesorio,lever,tesorio,list-fintech_payments_banking,ok,2026-11-27
+Paystand,greenhouse,paystand,list-fintech_payments_banking,ok,2026-11-27
+Qonto,ashby,qonto,list-fintech_payments_banking,ok,2026-11-27
+N26,greenhouse,n26,list-fintech_payments_banking,ok,2026-11-27
+Clearco,ashby,clearco,list-fintech_payments_banking,ok,2026-11-27
+Wayflyer,ashby,wayflyer,list-fintech_payments_banking,ok,2026-11-27
+Moniepoint,greenhouse,moniepoint,list-fintech_payments_banking,ok,2026-11-27
+Clara,greenhouse,clara,list-fintech_payments_banking,ok,2026-11-27
+Kueski,ashby,kueski,list-fintech_payments_banking,ok,2026-11-27
+Truv,lever,truv,list-fintech_payments_banking,ok,2026-11-27
+Method Financial,greenhouse,method,list-fintech_payments_banking,ok,2026-11-27
+Atomic Financial,ashby,atomic-financial,list-fintech_payments_banking,ok,2026-11-27
+Prove,greenhouse,prove,list-fintech_payments_banking,ok,2026-11-27
+Feedzai,greenhouse,feedzai,list-fintech_payments_banking,ok,2026-11-27
+Sift,ashby,sift,list-fintech_payments_banking,ok,2026-11-27
+Riskified,greenhouse,riskified,list-fintech_payments_banking,ok,2026-11-27
+Forter,greenhouse,forter,list-fintech_payments_banking,ok,2026-11-27
+Bolt,ashby,bolt,list-fintech_payments_banking,ok,2026-11-27
+Prosper,lever,prosper,list-fintech_payments_banking,ok,2026-11-27
+Better Mortgage,ashby,better-mortgage,list-fintech_payments_banking,ok,2026-11-27
+Guild,greenhouse,guild,list-fintech_payments_banking,ok,2026-11-27
+Sagent,greenhouse,sagent,list-fintech_payments_banking,ok,2026-11-27
+Snapdocs,ashby,snapdocs,list-fintech_payments_banking,ok,2026-11-27
+Doma,greenhouse,doma,list-fintech_payments_banking,ok,2026-11-27
+Qualia,greenhouse,qualia,list-fintech_payments_banking,ok,2026-11-27
+Pippin Title,greenhouse,pippintitle,list-fintech_payments_banking,ok,2026-11-27
+Orchard,ashby,orchard,list-fintech_payments_banking,ok,2026-11-27
+Homebound,ashby,homebound,list-fintech_payments_banking,ok,2026-11-27
+Landis,ashby,landis,list-fintech_payments_banking,ok,2026-11-27
+Baselane,lever,baselane,list-fintech_payments_banking,ok,2026-11-27
+Obligo,greenhouse,obligo,list-fintech_payments_banking,ok,2026-11-27
+Cherre,lever,cherre,list-fintech_payments_banking,ok,2026-11-27
+VTS,greenhouse,vts,list-fintech_payments_banking,ok,2026-11-27
+Dealpath,greenhouse,dealpath,list-fintech_payments_banking,ok,2026-11-27
+AppFolio,ashby,appfolio,list-fintech_payments_banking,ok,2026-11-27
+Entrata,lever,entrata,list-fintech_payments_banking,ok,2026-11-27
+Mantle,ashby,mantle,list-finance_data_software,ok,2026-11-27
+Ontra,ashby,ontra,list-finance_data_software,ok,2026-11-27
+Affinity,ashby,affinity,list-finance_data_software,ok,2026-11-27
+Nasdaq,greenhouse,nasdaq,list-finance_data_software,ok,2026-11-27
+Trumid,greenhouse,trumid,list-finance_data_software,ok,2026-11-27
+Symphony,greenhouse,symphony,list-finance_data_software,ok,2026-11-27
+Genesis Global,ashby,genesis,list-finance_data_software,ok,2026-11-27
+OpenGamma,greenhouse,opengamma,list-finance_data_software,ok,2026-11-27
+Numerix,greenhouse,numerix,list-finance_data_software,ok,2026-11-27
+Carbon Direct,greenhouse,carbondirect,list-finance_data_software,ok,2026-11-27
+Watershed,ashby,watershed,list-finance_data_software,ok,2026-11-27
+Sweep,ashby,sweep,list-finance_data_software,ok,2026-11-27
+Patch,lever,patch,list-finance_data_software,ok,2026-11-27
+Pachama,lever,pachama,list-finance_data_software,ok,2026-11-27
+YipitData,greenhouse,yipitdata,list-finance_data_software,ok,2026-11-27
+Earnest Analytics,greenhouse,earnest,list-finance_data_software,ok,2026-11-27
+Consumer Edge,greenhouse,consumeredge,list-finance_data_software,ok,2026-11-27
+Similarweb,greenhouse,similarweb,list-finance_data_software,ok,2026-11-27
+Sensor Tower,ashby,sensor-tower,list-finance_data_software,ok,2026-11-27
+Samaya AI,greenhouse,samayaai,list-finance_data_software,ok,2026-11-27
+Mako,greenhouse,mako,list-finance_data_software,ok,2026-11-27
+Agicap,lever,agicap,list-finance_data_software,ok,2026-11-27
+General Atlantic,greenhouse,generalatlantic,list-private_credit_pe,ok,2026-11-27
+Insight Partners,greenhouse,insight,list-private_credit_pe,ok,2026-11-27
+Thoma Bravo,lever,thomabravo,list-private_credit_pe,ok,2026-11-27
+Battery Ventures,greenhouse,batteryventures,list-private_credit_pe,ok,2026-11-27
+Lightspeed,ashby,lightspeed,list-private_credit_pe,ok,2026-11-27
+Bessemer Venture Partners,greenhouse,bessemerventurepartners,list-private_credit_pe,ok,2026-11-27
+Index Ventures,lever,indexventures,list-private_credit_pe,ok,2026-11-27
+Thrive Capital,ashby,thrivecapital,list-private_credit_pe,ok,2026-11-27
+Lexington Partners,greenhouse,lexingtonpartners,list-private_credit_pe,ok,2026-11-27
+Arini,ashby,arini,list-private_credit_pe,ok,2026-11-27
+Man Group,greenhouse,mangroup,list-private_credit_pe,ok,2026-11-27
+Marshall Wace,greenhouse,marshallwace,list-private_credit_pe,ok,2026-11-27
+ExodusPoint,greenhouse,exoduspoint,list-private_credit_pe,ok,2026-11-27
+Jump Trading,greenhouse,jumptrading,list-private_credit_pe,ok,2026-11-27
+Optiver,greenhouse,optiver,list-private_credit_pe,ok,2026-11-27
+Akuna Capital,greenhouse,akunacapital,list-private_credit_pe,ok,2026-11-27
+Flow Traders,greenhouse,flowtraders,list-private_credit_pe,ok,2026-11-27
+Belvedere Trading,lever,belvederetrading,list-private_credit_pe,ok,2026-11-27
+Geneva Trading,greenhouse,genevatrading,list-private_credit_pe,ok,2026-11-27
+Voleon,ashby,voleon,list-private_credit_pe,ok,2026-11-27
+WorldQuant,greenhouse,worldquant,list-private_credit_pe,ok,2026-11-27
+Dimensional,ashby,dimensional,list-private_credit_pe,ok,2026-11-27
+Artisan Partners,greenhouse,artisanpartners,list-private_credit_pe,ok,2026-11-27
+Harris Associates,greenhouse,harrisassociates,list-private_credit_pe,ok,2026-11-27
+Ariel Investments,greenhouse,arielinvestments,list-private_credit_pe,ok,2026-11-27
+Mercer Advisors,greenhouse,merceradvisors,list-private_credit_pe,ok,2026-11-27
+Pathstone,greenhouse,pathstone,list-private_credit_pe,ok,2026-11-27
+AlixPartners,greenhouse,alixpartners,list-banks_advisory,ok,2026-11-27
+Coastal Community Bank,ashby,coastal,list-banks_advisory,ok,2026-11-27
+Lead Bank,ashby,leadbank,list-banks_advisory,ok,2026-11-27
+Piermont Bank,greenhouse,piermontbank,list-banks_advisory,ok,2026-11-27
+Pathward,greenhouse,pathward,list-banks_advisory,ok,2026-11-27
+Sterling,greenhouse,sterling,list-banks_advisory,ok,2026-11-27
+Northmarq,greenhouse,northmarq,list-banks_advisory,ok,2026-11-27
+Marcus & Millichap,lever,marcusmillichap,list-banks_advisory,ok,2026-11-27
+Databricks,greenhouse,databricks,list-tech_gtm,ok,2026-11-27
+Celonis,greenhouse,celonis,list-tech_gtm,ok,2026-11-27
+Replit,ashby,replit,list-tech_gtm,ok,2026-11-27
+Lovable,ashby,lovable,list-tech_gtm,ok,2026-11-27
+Cognition,ashby,cognition,list-tech_gtm,ok,2026-11-27
+Abridge,ashby,abridge,list-tech_gtm,ok,2026-11-27
+OpenEvidence,ashby,openevidence,list-tech_gtm,ok,2026-11-27
+Filevine,lever,filevine,list-tech_gtm,ok,2026-11-27
+Chainguard,greenhouse,chainguard,list-tech_gtm,ok,2026-11-27
+1Password,ashby,1password,list-tech_gtm,ok,2026-11-27
+Tanium,greenhouse,tanium,list-tech_gtm,ok,2026-11-27
+Island,greenhouse,island,list-tech_gtm,ok,2026-11-27
+Huntress,greenhouse,huntress,list-tech_gtm,ok,2026-11-27
+Netskope,greenhouse,netskope,list-tech_gtm,ok,2026-11-27
+Cato Networks,greenhouse,catonetworks,list-tech_gtm,ok,2026-11-27
+Axonius,greenhouse,axonius,list-tech_gtm,ok,2026-11-27
+Semgrep,ashby,semgrep,list-tech_gtm,ok,2026-11-27
+Socket,ashby,socket,list-tech_gtm,ok,2026-11-27
+Torq,greenhouse,torq,list-tech_gtm,ok,2026-11-27
+Tines,greenhouse,tines,list-tech_gtm,ok,2026-11-27
+Material Security,ashby,materialsecurity,list-tech_gtm,ok,2026-11-27
+Neon,lever,neon,list-tech_gtm,ok,2026-11-27
+Temporal,ashby,temporal,list-tech_gtm,ok,2026-11-27
+LaunchDarkly,greenhouse,launchdarkly,list-tech_gtm,ok,2026-11-27
+PostHog,ashby,posthog,list-tech_gtm,ok,2026-11-27
+FullStory,ashby,fullstory,list-tech_gtm,ok,2026-11-27
+Airbyte,ashby,airbyte,list-tech_gtm,ok,2026-11-27
+Atlan,ashby,atlan,list-tech_gtm,ok,2026-11-27
+Collibra,greenhouse,collibra,list-tech_gtm,ok,2026-11-27
+Sigma Computing,greenhouse,sigmacomputing,list-tech_gtm,ok,2026-11-27
+Omni,ashby,omni,list-tech_gtm,ok,2026-11-27
+ClickHouse,ashby,clickhouse,list-tech_gtm,ok,2026-11-27
+MotherDuck,ashby,motherduck,list-tech_gtm,ok,2026-11-27
+Pinecone,ashby,pinecone,list-tech_gtm,ok,2026-11-27
+Weaviate,ashby,weaviate,list-tech_gtm,ok,2026-11-27
+Modal,ashby,modal,list-tech_gtm,ok,2026-11-27
+Together AI,greenhouse,togetherai,list-tech_gtm,ok,2026-11-27
+Fireworks AI,ashby,fireworks,list-tech_gtm,ok,2026-11-27
+Lambda,ashby,lambda,list-tech_gtm,ok,2026-11-27
+Crusoe,ashby,crusoe,list-tech_gtm,ok,2026-11-27
+Runpod,ashby,runpod,list-tech_gtm,ok,2026-11-27
+Cerebras,ashby,cerebras,list-tech_gtm,ok,2026-11-27
+Etched,ashby,etched,list-tech_gtm,ok,2026-11-27
+Mercor,ashby,mercor,list-tech_gtm,ok,2026-11-27
+Turing,greenhouse,turing,list-tech_gtm,ok,2026-11-27
+Surge AI,ashby,surge-ai,list-tech_gtm,ok,2026-11-27
+Handshake,ashby,handshake,list-tech_gtm,ok,2026-11-27
+Snorkel AI,greenhouse,snorkelai,list-tech_gtm,ok,2026-11-27
+Labelbox,greenhouse,labelbox,list-tech_gtm,ok,2026-11-27
+Invisible Technologies,greenhouse,invisible,list-tech_gtm,ok,2026-11-27
+ClickUp,ashby,clickup,list-tech_gtm,ok,2026-11-27
+Smartsheet,greenhouse,smartsheet,list-tech_gtm,ok,2026-11-27
+Lattice,greenhouse,lattice,list-tech_gtm,ok,2026-11-27
+Culture Amp,greenhouse,cultureamp,list-tech_gtm,ok,2026-11-27
+15Five,lever,15five,list-tech_gtm,ok,2026-11-27
+Ashby,ashby,ashby,list-tech_gtm,ok,2026-11-27
+Fora Travel,greenhouse,foratravel,list-tech_gtm,ok,2026-11-27
+Hopper,ashby,hopper,list-tech_gtm,ok,2026-11-27
+Samsara,greenhouse,samsara,list-tech_gtm,ok,2026-11-27
+Motive,greenhouse,motive,list-tech_gtm,ok,2026-11-27
+Verkada,greenhouse,verkada,list-tech_gtm,ok,2026-11-27
+Shield AI,ashby,shield,list-tech_gtm,ok,2026-11-27
+Saronic,ashby,saronic,list-tech_gtm,ok,2026-11-27
+Applied Intuition,ashby,applied,list-tech_gtm,ok,2026-11-27
+Palantir,lever,palantir,list-tech_gtm,ok,2026-11-27
+n8n,ashby,n8n,list-tech_gtm,ok,2026-11-27
+Kustomer,ashby,kustomer,list-tech_gtm,ok,2026-11-27
+Talkdesk,ashby,talkdesk,list-tech_gtm,ok,2026-11-27
+Dialpad,greenhouse,dialpad,list-tech_gtm,ok,2026-11-27
+Twilio,greenhouse,twilio,list-tech_gtm,ok,2026-11-27
+Braze,greenhouse,braze,list-tech_gtm,ok,2026-11-27
+Iterable,ashby,iterable,list-tech_gtm,ok,2026-11-27
+Postscript,greenhouse,postscript,list-tech_gtm,ok,2026-11-27
+Customer.io,greenhouse,customerio,list-tech_gtm,ok,2026-11-27
+Contentful,greenhouse,contentful,list-tech_gtm,ok,2026-11-27
+Sanity,ashby,sanity,list-tech_gtm,ok,2026-11-27
+Squarespace,greenhouse,squarespace,list-tech_gtm,ok,2026-11-27
+Faire,greenhouse,faire,list-tech_gtm,ok,2026-11-27
+Gopuff,lever,gopuff,list-tech_gtm,ok,2026-11-27
+Instacart,greenhouse,instacart,list-tech_gtm,ok,2026-11-27
+Discord,greenhouse,discord,list-tech_gtm,ok,2026-11-27
+Reddit,greenhouse,reddit,list-tech_gtm,ok,2026-11-27
+Pinterest,greenhouse,pinterest,list-tech_gtm,ok,2026-11-27
+Duolingo,greenhouse,duolingo,list-tech_gtm,ok,2026-11-27
+Oura,greenhouse,oura,list-tech_gtm,ok,2026-11-27
+Whoop,ashby,whoop,list-tech_gtm,ok,2026-11-27
+Hinge Health,ashby,hinge-health,list-tech_gtm,ok,2026-11-27
+Sword Health,greenhouse,swordhealth,list-tech_gtm,ok,2026-11-27
+Alma,ashby,alma,list-tech_gtm,ok,2026-11-27
+Lyra Health,lever,lyrahealth,list-tech_gtm,ok,2026-11-27
+Modern Health,greenhouse,modernhealth,list-tech_gtm,ok,2026-11-27
+Function Health,ashby,function-health,list-tech_gtm,ok,2026-11-27
+Midi Health,greenhouse,midihealth,list-tech_gtm,ok,2026-11-27
+Carrot Fertility,greenhouse,carrotfertility,list-tech_gtm,ok,2026-11-27
+Zocdoc,greenhouse,zocdoc,list-tech_gtm,ok,2026-11-27
+Oscar Health,greenhouse,oscar,list-tech_gtm,ok,2026-11-27
+Wispr Flow,ashby,wispr-flow,list-tech_gtm,ok,2026-11-27
+Lila Sciences,greenhouse,lilasciences,list-tech_gtm,ok,2026-11-27
+Tenex,ashby,tenex,list-tech_gtm,ok,2026-11-27
+Higgsfield AI,ashby,higgsfieldai,list-tech_gtm,ok,2026-11-27
+Juicebox,ashby,juicebox,list-tech_gtm,ok,2026-11-27
+Serval,ashby,serval,list-tech_gtm,ok,2026-11-27
+Reflection AI,ashby,reflectionai,list-tech_gtm,ok,2026-11-27
+AfterQuery,ashby,afterquery,list-tech_gtm,ok,2026-11-27
+Comfrt,greenhouse,comfrt,list-tech_gtm,ok,2026-11-27
+Solace Health,ashby,solace,list-tech_gtm,ok,2026-11-27
+Icarus,greenhouse,icarus,list-tech_gtm,ok,2026-11-27
+Nebulock,ashby,nebulock,list-tech_gtm,ok,2026-11-27
+Metropolis,greenhouse,metropolis,list-tech_gtm,ok,2026-11-27
+Apptronik,greenhouse,apptronik,list-tech_gtm,ok,2026-11-27
+Okta,greenhouse,okta,list-tech_gtm,ok,2026-11-27
+Cloudflare,greenhouse,cloudflare,list-tech_gtm,ok,2026-11-27
+Snowflake,ashby,snowflake,list-tech_gtm,ok,2026-11-27
+Confluent,ashby,confluent,list-tech_gtm,ok,2026-11-27
+Elastic,greenhouse,elastic,list-tech_gtm,ok,2026-11-27
+GitLab,greenhouse,gitlab,list-tech_gtm,ok,2026-11-27
+Checkr,greenhouse,checkr,list-tech_gtm,ok,2026-11-27
+Flexport,greenhouse,flexport,list-tech_gtm,ok,2026-11-27
+project44,greenhouse,project44,list-tech_gtm,ok,2026-11-27
+FourKites,greenhouse,fourkites,list-tech_gtm,ok,2026-11-27
+Loadsmart,lever,loadsmart,list-tech_gtm,ok,2026-11-27
+Benchling,ashby,benchling,list-tech_gtm,ok,2026-11-27
+Veeva,lever,veeva,list-tech_gtm,ok,2026-11-27
+Flatiron Health,greenhouse,flatironhealth,list-tech_gtm,ok,2026-11-27
+Komodo Health,greenhouse,komodohealth,list-tech_gtm,ok,2026-11-27
+Ribbon Health,lever,ribbon,list-tech_gtm,ok,2026-11-27
+Zus Health,lever,zushealth,list-tech_gtm,ok,2026-11-27
+Commure,ashby,commure,list-tech_gtm,ok,2026-11-27
+Infinitus,ashby,infinitus,list-tech_gtm,ok,2026-11-27
+Notable,ashby,notable,list-tech_gtm,ok,2026-11-27
+Ambience Healthcare,ashby,ambiencehealthcare,list-tech_gtm,ok,2026-11-27
+Suki,greenhouse,suki,list-tech_gtm,ok,2026-11-27
+Nabla,ashby,nabla,list-tech_gtm,ok,2026-11-27
+Rilla,ashby,rilla,list-tech_gtm,ok,2026-11-27
+People.ai,lever,people-ai,list-tech_gtm,ok,2026-11-27
+Attio,ashby,attio,list-tech_gtm,ok,2026-11-27
+Unify,ashby,unify,list-tech_gtm,ok,2026-11-27
+Artisan,ashby,artisan,list-tech_gtm,ok,2026-11-27
+Regie.ai,greenhouse,regie,list-tech_gtm,ok,2026-11-27
+Nooks,ashby,nooks,list-tech_gtm,ok,2026-11-27
+Arcade,ashby,arcade,list-tech_gtm,ok,2026-11-27
+Fathom,ashby,fathom,list-tech_gtm,ok,2026-11-27
+Granola,ashby,granola,list-tech_gtm,ok,2026-11-27
+Otter.ai,greenhouse,otter,list-tech_gtm,ok,2026-11-27
+Read AI,ashby,read-ai,list-tech_gtm,ok,2026-11-27
+Graphite,ashby,graphite,list-tech_gtm,ok,2026-11-27
+Raycast,ashby,raycast,list-tech_gtm,ok,2026-11-27
+Gamma,ashby,gamma,list-tech_gtm,ok,2026-11-27
+Beautiful.ai,greenhouse,beautifulai,list-tech_gtm,ok,2026-11-27
+Descript,greenhouse,descript,list-tech_gtm,ok,2026-11-27
+Kapwing,lever,kapwing,list-tech_gtm,ok,2026-11-27
+Opus Clip,ashby,opusclip,list-tech_gtm,ok,2026-11-27
+HeyGen,greenhouse,heygen,list-tech_gtm,ok,2026-11-27
+Suno,ashby,suno,list-tech_gtm,ok,2026-11-27
+Udio,greenhouse,udio,list-tech_gtm,ok,2026-11-27
+Midjourney,ashby,midjourney,list-tech_gtm,ok,2026-11-27
+Ideogram,ashby,ideogram,list-tech_gtm,ok,2026-11-27
+Krea,ashby,krea,list-tech_gtm,ok,2026-11-27
+Luma AI,ashby,lumaai,list-tech_gtm,ok,2026-11-27
+Pika,ashby,pika,list-tech_gtm,ok,2026-11-27
+Abacus,greenhouse,abacus,list-startups,ok,2026-11-27
+Addi,ashby,addi,list-startups,ok,2026-11-27
+Akur8,ashby,akur8,list-startups,ok,2026-11-27
+Alan,ashby,alan,list-startups,ok,2026-11-27
+Aleph,lever,aleph,list-startups,ok,2026-11-27
+Alphasights,greenhouse,alphasights,list-startups,ok,2026-11-27
+Altana,ashby,altana,list-startups,ok,2026-11-27
+Ambrook,ashby,ambrook,list-startups,ok,2026-11-27
+Angi,ashby,angi,list-startups,ok,2026-11-27
+Anyscale,ashby,anyscale,list-startups,ok,2026-11-27
+Appcues,ashby,appcues,list-startups,ok,2026-11-27
+Aptible,ashby,aptible,list-startups,ok,2026-11-27
+Arcadia,lever,arcadia,list-startups,ok,2026-11-27
+Arize AI,greenhouse,arizeai,list-startups,ok,2026-11-27
+Asimov,ashby,asimov,list-startups,ok,2026-11-27
+AtoB,ashby,atob,list-startups,ok,2026-11-27
+Aura,greenhouse,aura,list-startups,ok,2026-11-27
+Babylist,greenhouse,babylist,list-startups,ok,2026-11-27
+Baton,ashby,baton,list-startups,ok,2026-11-27
+Belvo,ashby,belvo,list-startups,ok,2026-11-27
+Bitpanda,greenhouse,bitpanda,list-startups,ok,2026-11-27
+Bloom,lever,bloom,list-startups,ok,2026-11-27
+Boulevard,greenhouse,boulevard,list-startups,ok,2026-11-27
+Branch,greenhouse,branch,list-startups,ok,2026-11-27
+Bubble,ashby,bubble,list-startups,ok,2026-11-27
+Buildkite,greenhouse,buildkite,list-startups,ok,2026-11-27
+Bumble,ashby,bumble,list-startups,ok,2026-11-27
+Butter,ashby,butter,list-startups,ok,2026-11-27
+Calm,greenhouse,calm,list-startups,ok,2026-11-27
+Candid,greenhouse,candid,list-startups,ok,2026-11-27
+Canopy,ashby,canopy,list-startups,ok,2026-11-27
+Capsule,ashby,capsule,list-startups,ok,2026-11-27
+Carbon Health,ashby,carbonhealth,list-startups,ok,2026-11-27
+Catalyst,ashby,catalyst,list-startups,ok,2026-11-27
+ChartHop,ashby,charthop,list-startups,ok,2026-11-27
+Cin7,lever,cin7,list-startups,ok,2026-11-27
+Citizen,ashby,citizen,list-startups,ok,2026-11-27
+Clarify,ashby,clarify,list-startups,ok,2026-11-27
+ClassPass,ashby,classpass,list-startups,ok,2026-11-27
+Codat,ashby,codat,list-startups,ok,2026-11-27
+Color Health,ashby,color-health,list-startups,ok,2026-11-27
+Contra,ashby,contra,list-startups,ok,2026-11-27
+Coursera,greenhouse,coursera,list-startups,ok,2026-11-27
+Cribl,greenhouse,cribl,list-startups,ok,2026-11-27
+Cyberhaven,ashby,cyberhaven,list-startups,ok,2026-11-27
+Dashlane,greenhouse,dashlane,list-startups,ok,2026-11-27
+Dataiku,greenhouse,dataiku,list-startups,ok,2026-11-27
+Datafold,ashby,datafold,list-startups,ok,2026-11-27
+Deepgram,ashby,deepgram,list-startups,ok,2026-11-27
+Demandbase,ashby,demandbase,list-startups,ok,2026-11-27
+Docker,ashby,docker,list-startups,ok,2026-11-27
+Doppler,ashby,doppler,list-startups,ok,2026-11-27
+Dremio,greenhouse,dremio,list-startups,ok,2026-11-27
+Envoy,ashby,envoy,list-startups,ok,2026-11-27
+Everlaw,greenhouse,everlaw,list-startups,ok,2026-11-27
+Extend,greenhouse,extend,list-startups,ok,2026-11-27
+Fiddler AI,ashby,fiddler-ai,list-startups,ok,2026-11-27
+Fleetio,greenhouse,fleetio,list-startups,ok,2026-11-27
+Flock Homes,greenhouse,flockhomes,list-startups,ok,2026-11-27
+Formlabs,greenhouse,formlabs,list-startups,ok,2026-11-27
+Forto,ashby,forto,list-startups,ok,2026-11-27
+Freshpaint,ashby,freshpaint,list-startups,ok,2026-11-27
+Gecko Robotics,ashby,gecko-robotics,list-startups,ok,2026-11-27
+GetYourGuide,ashby,getyourguide,list-startups,ok,2026-11-27
+Ghost,greenhouse,ghost,list-startups,ok,2026-11-27
+GoGuardian,greenhouse,goguardian,list-startups,ok,2026-11-27
+GoodRx,ashby,goodrx,list-startups,ok,2026-11-27
+Grove Collaborative,greenhouse,grovecollaborative,list-startups,ok,2026-11-27
+Health Gorilla,ashby,healthgorilla,list-startups,ok,2026-11-27
+Helion,ashby,helion,list-startups,ok,2026-11-27
+Hims & Hers,ashby,hims-and-hers,list-startups,ok,2026-11-27
+Honor,greenhouse,honor,list-startups,ok,2026-11-27
+Housecall Pro,greenhouse,housecall,list-startups,ok,2026-11-27
+Imbue,greenhouse,imbue,list-startups,ok,2026-11-27
+Incident.io,ashby,incident,list-startups,ok,2026-11-27
+Inngest,ashby,inngest,list-startups,ok,2026-11-27
+Instawork,greenhouse,instawork,list-startups,ok,2026-11-27
+Jobber,ashby,jobber,list-startups,ok,2026-11-27
+Jumpcloud,lever,jumpcloud,list-startups,ok,2026-11-27
+Kernel,ashby,kernel,list-startups,ok,2026-11-27
+Kong,ashby,kong,list-startups,ok,2026-11-27
+Latch,lever,latch,list-startups,ok,2026-11-27
+LeanData,ashby,leandata,list-startups,ok,2026-11-27
+Ledger,ashby,ledger,list-startups,ok,2026-11-27
+Lessen,lever,lessen,list-startups,ok,2026-11-27
+Level,ashby,level,list-startups,ok,2026-11-27
+Lightdash,ashby,lightdash,list-startups,ok,2026-11-27
+Lightmatter,greenhouse,lightmatter,list-startups,ok,2026-11-27
+Lob,greenhouse,lob,list-startups,ok,2026-11-27
+Logically,lever,logically,list-startups,ok,2026-11-27
+Lyft,greenhouse,lyft,list-startups,ok,2026-11-27
+Make,greenhouse,make,list-startups,ok,2026-11-27
+Malt,lever,malt,list-startups,ok,2026-11-27
+Mapbox,ashby,mapbox,list-startups,ok,2026-11-27
+Marble,ashby,marble,list-startups,ok,2026-11-27
+Medallion,ashby,medallion,list-startups,ok,2026-11-27
+Medely,ashby,medely,list-startups,ok,2026-11-27
+Merge,ashby,merge,list-startups,ok,2026-11-27
+Meter,ashby,meter,list-startups,ok,2026-11-27
+Metabase,lever,metabase,list-startups,ok,2026-11-27
+Mighty Networks,greenhouse,mightynetworks,list-startups,ok,2026-11-27
+Mirakl,greenhouse,mirakl,list-startups,ok,2026-11-27
+Mixmax,greenhouse,mixmax,list-startups,ok,2026-11-27
+Monograph,greenhouse,monograph,list-startups,ok,2026-11-27
+Multiverse,ashby,multiverse,list-startups,ok,2026-11-27
+Mux,ashby,mux,list-startups,ok,2026-11-27
+Narvar,greenhouse,narvar,list-startups,ok,2026-11-27
+Nash,ashby,nash,list-startups,ok,2026-11-27
+Nextdoor,greenhouse,nextdoor,list-startups,ok,2026-11-27
+Nuro,greenhouse,nuro,list-startups,ok,2026-11-27
+Nylas,ashby,nylas,list-startups,ok,2026-11-27
+Obsidian Security,greenhouse,obsidiansecurity,list-startups,ok,2026-11-27
+Olo,lever,olo,list-startups,ok,2026-11-27
+Omada Health,greenhouse,omadahealth,list-startups,ok,2026-11-27
+Onyx,ashby,onyx,list-startups,ok,2026-11-27
+OpenSea,ashby,opensea,list-startups,ok,2026-11-27
+Orca Security,greenhouse,orcasecurity,list-startups,ok,2026-11-27
+Outschool,ashby,outschool,list-startups,ok,2026-11-27
+Owner,ashby,owner,list-startups,ok,2026-11-27
+PagerDuty,greenhouse,pagerduty,list-startups,ok,2026-11-27
+Pallet,greenhouse,pallet,list-startups,ok,2026-11-27
+Papa,greenhouse,papa,list-startups,ok,2026-11-27
+Parker,ashby,parker,list-startups,ok,2026-11-27
+Patreon,ashby,patreon,list-startups,ok,2026-11-27
+Peloton,greenhouse,peloton,list-startups,ok,2026-11-27
+Plain,ashby,plain,list-startups,ok,2026-11-27
+Planet,ashby,planet,list-startups,ok,2026-11-27
+Playground,ashby,playground,list-startups,ok,2026-11-27
+Plume,greenhouse,plume,list-startups,ok,2026-11-27
+Podium,ashby,podium,list-startups,ok,2026-11-27
+Prefect,ashby,prefect,list-startups,ok,2026-11-27
+Propel,ashby,propel,list-startups,ok,2026-11-27
+Quora,ashby,quora,list-startups,ok,2026-11-27
+Quantexa,ashby,quantexa,list-startups,ok,2026-11-27
+Rasa,ashby,rasa,list-startups,ok,2026-11-27
+ReadMe,ashby,readme,list-startups,ok,2026-11-27
+Recharge,ashby,recharge,list-startups,ok,2026-11-27
+Redwood Materials,greenhouse,redwoodmaterials,list-startups,ok,2026-11-27
+Relativity Space,greenhouse,relativity,list-startups,ok,2026-11-27
+Rent the Runway,greenhouse,renttherunway,list-startups,ok,2026-11-27
+Resend,ashby,resend,list-startups,ok,2026-11-27
+Rewind,ashby,rewind,list-startups,ok,2026-11-27
+RevenueCat,ashby,revenuecat,list-startups,ok,2026-11-27
+Rigetti,lever,rigetti,list-startups,ok,2026-11-27
+Rocket Lab,greenhouse,rocketlab,list-startups,ok,2026-11-27
+Rover,lever,rover,list-startups,ok,2026-11-27
+Rubrik,greenhouse,rubrik,list-startups,ok,2026-11-27
+Scribe,ashby,scribe,list-startups,ok,2026-11-27
+Seatgeek,greenhouse,seatgeek,list-startups,ok,2026-11-27
+Sentry,ashby,sentry,list-startups,ok,2026-11-27
+Shopmonkey,greenhouse,shopmonkey,list-startups,ok,2026-11-27
+Signal AI,ashby,signal-ai,list-startups,ok,2026-11-27
+SmartRent,greenhouse,smartrent,list-startups,ok,2026-11-27
+Snackpass,ashby,snackpass,list-startups,ok,2026-11-27
+Sonder,ashby,sonder,list-startups,ok,2026-11-27
+Speak,ashby,speak,list-startups,ok,2026-11-27
+Splice,greenhouse,splice,list-startups,ok,2026-11-27
+Sprig,ashby,sprig,list-startups,ok,2026-11-27
+Strava,ashby,strava,list-startups,ok,2026-11-27
+Stytch,ashby,stytch,list-startups,ok,2026-11-27
+Substack,ashby,substack,list-startups,ok,2026-11-27
+Sure,lever,sure,list-startups,ok,2026-11-27
+Swile,lever,swile,list-startups,ok,2026-11-27
+Tailscale,greenhouse,tailscale,list-startups,ok,2026-11-27
+Tecton,lever,tecton,list-startups,ok,2026-11-27
+Tempo,greenhouse,tempo,list-startups,ok,2026-11-27
+Tenstorrent,greenhouse,tenstorrent,list-startups,ok,2026-11-27
+Terminal,ashby,terminal,list-startups,ok,2026-11-27
+Thumbtack,ashby,thumbtack,list-startups,ok,2026-11-27
+Trainline,ashby,trainline,list-startups,ok,2026-11-27
+Trunk,ashby,trunk,list-startups,ok,2026-11-27
+Twingate,lever,twingate,list-startups,ok,2026-11-27
+Typeform,greenhouse,typeform,list-startups,ok,2026-11-27
+Udemy,greenhouse,udemy,list-startups,ok,2026-11-27
+Unqork,greenhouse,unqork,list-startups,ok,2026-11-27
+Upwork,greenhouse,upwork,list-startups,ok,2026-11-27
+Uplift,greenhouse,uplift,list-startups,ok,2026-11-27
+Via,greenhouse,via,list-startups,ok,2026-11-27
+Virta Health,ashby,virtahealth,list-startups,ok,2026-11-27
+Volta,ashby,volta,list-startups,ok,2026-11-27
+Waymo,greenhouse,waymo,list-startups,ok,2026-11-27
+Weave,ashby,weave,list-startups,ok,2026-11-27
+Wellth,ashby,wellth,list-startups,ok,2026-11-27
+Wistia,ashby,wistia,list-startups,ok,2026-11-27
+Workato,greenhouse,workato,list-startups,ok,2026-11-27
+WorkOS,ashby,workos,list-startups,ok,2026-11-27
+Wrike,greenhouse,wrike,list-startups,ok,2026-11-27
+Xendit,greenhouse,xendit,list-startups,ok,2026-11-27
+Yotpo,greenhouse,yotpo,list-startups,ok,2026-11-27
+Zola,greenhouse,zola,list-startups,ok,2026-11-27
+Zuora,greenhouse,zuora,list-startups,ok,2026-11-27
+Abound,ashby,abound,list-startups,ok,2026-11-27
+Aerodome,greenhouse,aerodome,list-startups,ok,2026-11-27
+Agentio,ashby,agentio,list-startups,ok,2026-11-27
+Apollo Agriculture,lever,apolloagriculture,list-startups,ok,2026-11-27
+Augury,greenhouse,augury,list-startups,ok,2026-11-27
+Bankjoy,ashby,bankjoy,list-startups,ok,2026-11-27
+Belong Health,greenhouse,belonghealth,list-startups,ok,2026-11-27
+Bookkeeper360,ashby,bookkeeper360,list-startups,ok,2026-11-27
+Bree,ashby,bree,list-startups,ok,2026-11-27
+Candex,ashby,candex,list-startups,ok,2026-11-27
+Chord,ashby,chord,list-startups,ok,2026-11-27
+Clerk,ashby,clerk,list-startups,ok,2026-11-27
+Coast,greenhouse,coast,list-startups,ok,2026-11-27
+Coverdash,ashby,coverdash,list-startups,ok,2026-11-27
+Crowdbotics,greenhouse,crowdbotics,list-startups,ok,2026-11-27
+Deepnote,ashby,deepnote,list-startups,ok,2026-11-27
+Emburse,lever,emburse,list-startups,ok,2026-11-27
+Enable,lever,enable,list-startups,ok,2026-11-27
+Finch,lever,finch,list-startups,ok,2026-11-27
+Fizz,ashby,fizz,list-startups,ok,2026-11-27
+Fonoa,ashby,fonoa,list-startups,ok,2026-11-27
+Gather,greenhouse,gather,list-startups,ok,2026-11-27
+Gauntlet,lever,gauntlet,list-startups,ok,2026-11-27
+Glide,lever,glide,list-startups,ok,2026-11-27
+Harbor,ashby,harbor,list-startups,ok,2026-11-27
+Hatch,ashby,hatch,list-startups,ok,2026-11-27
+Juno,greenhouse,juno,list-startups,ok,2026-11-27
+Kindred,ashby,kindred,list-startups,ok,2026-11-27
+Koho,ashby,koho,list-startups,ok,2026-11-27
+Laurel,ashby,laurel,list-startups,ok,2026-11-27
+Liberis,greenhouse,liberis,list-startups,ok,2026-11-27
+Lumos,ashby,lumos,list-startups,ok,2026-11-27
+Mangomint,ashby,mangomint,list-startups,ok,2026-11-27
+Marble Health,ashby,marblehealth,list-startups,ok,2026-11-27
+Matic,greenhouse,matic,list-startups,ok,2026-11-27
+Navi,ashby,navi,list-startups,ok,2026-11-27
+Nerdwallet,ashby,nerdwallet,list-startups,ok,2026-11-27
+Nirvana,ashby,nirvana,list-startups,ok,2026-11-27
+Novel,ashby,novel,list-startups,ok,2026-11-27
+Obvious,ashby,obvious,list-startups,ok,2026-11-27
+Oliver,greenhouse,oliver,list-startups,ok,2026-11-27
+Parallel,ashby,parallel,list-startups,ok,2026-11-27
+Paytient,greenhouse,paytient,list-startups,ok,2026-11-27
+Pennylane,ashby,pennylane,list-startups,ok,2026-11-27
+Pillar,lever,pillar,list-startups,ok,2026-11-27
+Pursuit,greenhouse,pursuit,list-startups,ok,2026-11-27
+Quanta,ashby,quanta,list-startups,ok,2026-11-27
+Quilt,greenhouse,quilt,list-startups,ok,2026-11-27
+Relay Payments,greenhouse,relaypayments,list-startups,ok,2026-11-27
+Scalar,ashby,scalar,list-startups,ok,2026-11-27
+Shift,ashby,shift,list-startups,ok,2026-11-27
+Spiral,ashby,spiral,list-startups,ok,2026-11-27
+Splitwise,ashby,splitwise,list-startups,ok,2026-11-27
+Spruce,ashby,spruce,list-startups,ok,2026-11-27
+Swan,ashby,swan,list-startups,ok,2026-11-27
+Taktile,ashby,taktile,list-startups,ok,2026-11-27
+Tapcheck,ashby,tapcheck,list-startups,ok,2026-11-27
+Trolley,greenhouse,trolley,list-startups,ok,2026-11-27
+Truebill,greenhouse,truebill,list-startups,ok,2026-11-27
+Vesta,ashby,vesta,list-startups,ok,2026-11-27
+Withco,ashby,withco,list-startups,ok,2026-11-27
+Yieldmo,greenhouse,yieldmo,list-startups,ok,2026-11-27
+Zeta,lever,zeta,list-startups,ok,2026-11-27
+Zilch,ashby,zilch,list-startups,ok,2026-11-27
+Glossier,greenhouse,glossier,list-batch3,ok,2026-11-27
+Harry's,greenhouse,harrys,list-batch3,ok,2026-11-27
+Away,ashby,away,list-batch3,ok,2026-11-27
+UiPath,ashby,uipath,list-batch3,ok,2026-11-27
+CLEAR,greenhouse,clear,list-batch3,ok,2026-11-27
+Pattern,lever,pattern,list-batch3,ok,2026-11-27
+Movable Ink,greenhouse,movableink,list-batch3,ok,2026-11-27
+Yext,greenhouse,yext,list-batch3,ok,2026-11-27
+Taboola,greenhouse,taboola,list-batch3,ok,2026-11-27
+DoubleVerify,greenhouse,doubleverify,list-batch3,ok,2026-11-27
+Typeface,greenhouse,typeface,list-batch3,ok,2026-11-27
+Character.ai,ashby,character,list-batch3,ok,2026-11-27
+Magic,ashby,magic,list-batch3,ok,2026-11-27
+Poolside,ashby,poolside,list-batch3,ok,2026-11-27
+Physical Intelligence,ashby,physicalintelligence,list-batch3,ok,2026-11-27
+Figure AI,greenhouse,figureai,list-batch3,ok,2026-11-27
+Bright Machines,lever,brightmachines,list-batch3,ok,2026-11-27
+Mytra,ashby,mytra,list-batch3,ok,2026-11-27
+Hermeus,lever,hermeus,list-batch3,ok,2026-11-27
+Astranis,greenhouse,astranis,list-batch3,ok,2026-11-27
+Ursa Major,greenhouse,ursamajor,list-batch3,ok,2026-11-27
+Epirus,greenhouse,epirus,list-batch3,ok,2026-11-27
+Chaos Industries,greenhouse,chaosindustries,list-batch3,ok,2026-11-27
+Velocity Global,ashby,velocity,list-batch3,ok,2026-11-27
+Sequoia One,ashby,sequoia,list-batch3,ok,2026-11-27
+Paradox,ashby,paradox,list-batch3,ok,2026-11-27
+Beamery,ashby,beamery,list-batch3,ok,2026-11-27
+SeekOut,greenhouse,seekout,list-batch3,ok,2026-11-27
+Wonolo,lever,wonolo,list-batch3,ok,2026-11-27
+Shiftsmart,ashby,shiftsmart,list-batch3,ok,2026-11-27
+Thoropass,greenhouse,thoropass,list-batch3,ok,2026-11-27
+Hyperproof,greenhouse,hyperproof,list-batch3,ok,2026-11-27
+OneTrust,greenhouse,onetrust,list-batch3,ok,2026-11-27
+BigID,greenhouse,bigid,list-batch3,ok,2026-11-27
+Sentra,ashby,sentra,list-batch3,ok,2026-11-27
+Concentric AI,greenhouse,concentric,list-batch3,ok,2026-11-27
+Druva,greenhouse,druva,list-batch3,ok,2026-11-27
+Expel,greenhouse,expel,list-batch3,ok,2026-11-27
+Blumira,greenhouse,blumira,list-batch3,ok,2026-11-27
+Resilience,greenhouse,resilience,list-batch3,ok,2026-11-27
+Rula,ashby,rula,list-batch3,ok,2026-11-27
+SonderMind,ashby,sondermind,list-batch3,ok,2026-11-27
+Talkiatry,ashby,talkiatry,list-batch3,ok,2026-11-27
+Charlie Health,greenhouse,charliehealth,list-batch3,ok,2026-11-27
+Equip,ashby,equip,list-batch3,ok,2026-11-27
+Two Chairs,greenhouse,twochairs,list-batch3,ok,2026-11-27
+Octave,greenhouse,octave,list-batch3,ok,2026-11-27
+Nomi Health,lever,nomihealth,list-batch3,ok,2026-11-27
+Garner Health,greenhouse,garnerhealth,list-batch3,ok,2026-11-27
+Included Health,lever,includedhealth,list-batch3,ok,2026-11-27
+Transcarent,lever,transcarent,list-batch3,ok,2026-11-27
+Forward,greenhouse,forward,list-batch3,ok,2026-11-27
+Parsley Health,greenhouse,parsleyhealth,list-batch3,ok,2026-11-27
+Tia,greenhouse,tia,list-batch3,ok,2026-11-27
+Clover Health,greenhouse,cloverhealth,list-batch3,ok,2026-11-27
+Centivo,ashby,centivo,list-batch3,ok,2026-11-27
+Sana Benefits,lever,sanabenefits,list-batch3,ok,2026-11-27
+Catch,ashby,catch,list-batch3,ok,2026-11-27
+Loop Returns,lever,loopreturns,list-batch3,ok,2026-11-27
+Route,greenhouse,route,list-batch3,ok,2026-11-27
+Okendo,lever,okendo,list-batch3,ok,2026-11-27
+Triple Whale,greenhouse,triplewhale,list-batch3,ok,2026-11-27
+Northbeam,greenhouse,northbeam,list-batch3,ok,2026-11-27
+Slice,greenhouse,slice,list-batch3,ok,2026-11-27
+ChowNow,lever,chownow,list-batch3,ok,2026-11-27
+Sunday,ashby,sunday,list-batch3,ok,2026-11-27
+Airbnb,greenhouse,airbnb,list-batch3,ok,2026-11-27
+Vacasa,greenhouse,vacasa,list-batch3,ok,2026-11-27
+Evolve,ashby,evolve,list-batch3,ok,2026-11-27
+Cloudbeds,greenhouse,cloudbeds,list-batch3,ok,2026-11-27
+SiteMinder,ashby,siteminder,list-batch3,ok,2026-11-27
+Placemakr,lever,placemakr,list-batch3,ok,2026-11-27
+Engine,greenhouse,engine,list-batch3,ok,2026-11-27
+Coupa,lever,coupa,list-batch3,ok,2026-11-27
+Productiv,greenhouse,productiv,list-batch3,ok,2026-11-27
+BetterCloud,ashby,bettercloud,list-batch3,ok,2026-11-27
+Josys,ashby,josys,list-batch3,ok,2026-11-27
+Jamf,greenhouse,jamf,list-batch3,ok,2026-11-27
+Iru,lever,iru,list-batch3,ok,2026-11-27
+Fleet,greenhouse,fleet,list-batch3,ok,2026-11-27
+NinjaOne,greenhouse,ninjaone,list-batch3,ok,2026-11-27
+ConnectWise,greenhouse,connectwise,list-batch3,ok,2026-11-27
+Kaseya,greenhouse,kaseya,list-batch3,ok,2026-11-27
+GuidePoint Security,greenhouse,guidepointsecurity,list-batch3,ok,2026-11-27
+Trace3,greenhouse,trace3,list-batch3,ok,2026-11-27
+Myriad360,greenhouse,myriad360,list-batch3,ok,2026-11-27
+Clark,ashby,clark,list-batch3,ok,2026-11-27
