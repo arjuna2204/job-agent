@@ -47,7 +47,7 @@ jobs:
 
       - name: Weekly discovery (Sundays)
         if: github.event.schedule == '41 7 * * 0' || inputs.discovery == true
-        run: python finder.py discover --commoncrawl --limit 1500 || true
+        run: python finder.py discover --commoncrawl --limit 3000 --ats ashby,greenhouse,lever || true
 
       - name: Poll every company
         run: python finder.py poll
