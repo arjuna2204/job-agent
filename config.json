@@ -128,6 +128,9 @@
     "assistant vice president",
     "attorney",
     "avp",
+    "bdr manager",
+    "boutique",
+    "call center",
     "co-op",
     "counsel",
     "designer",
@@ -142,13 +145,18 @@
     "federal",
     "financial advisor",
     "financial services representative",
+    "franchise",
     "group product manager",
     "head of",
     "ii",
     "iii",
+    "inside sales agent",
+    "insurance agent",
     "intern",
     "internship",
+    "jewelry",
     "lead",
+    "licensed agent",
     "marketing manager",
     "mid-market",
     "named",
@@ -164,14 +172,20 @@
     "program manager, engineering",
     "quant",
     "recruiter",
+    "retail",
+    "sales advocate",
+    "sales development manager",
     "sales manager",
     "scientist",
+    "sdr manager",
     "senior",
+    "showroom",
     "software",
     "sourcing manager",
     "sr",
     "sr.",
     "staff",
+    "store",
     "strategics",
     "vice president",
     "vp",
@@ -511,21 +525,24 @@
     "fresh_points": 5,
     "penalties": [
       {
-        "points": -12,
+        "points": -25,
         "terms": [
           "manager",
           "trader",
           "advisor",
           "banker",
-          "representative"
+          "representative i",
+          "specialist ii"
         ]
       }
     ],
     "penalty_exempt": [
       "account manager",
-      "product manager",
+      "associate product manager",
       "partner manager",
-      "success manager"
+      "partnerships manager",
+      "success manager",
+      "product manager i"
     ]
   }
 }

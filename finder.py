@@ -619,13 +619,33 @@ def record_applied(company, title, job_id="", url="", source="manual"):
 def already_applied(company, title, job_id="", applied=None):
     """Matches by exact job id, or same company + same normalized title (catches reposts of the same role)."""
     applied = load_applied() if applied is None else applied
-    c, t = _norm(company), _norm(title)
+    c, t = _norm(company), _title_key(title)
     for a in applied:
         if job_id and a.get("job_id") == job_id:
             return True
-        if _norm(a.get("company")) == c and _norm(a.get("title")) == t:
-            return True
+        if _norm(a.get("company")) == c:
+            at = _title_key(a.get("title"))
+            # same role even if worded a bit differently, e.g. "SDR (Sales Development Representative)"
+            if at == t or (min(len(at), len(t)) >= 15 and (at in t or t in at)):
+                return True
     return False
+
+
+_ABBREV = {"sdr": "sales development representative", "bdr": "business development representative",
+           "ae": "account executive", "am": "account manager", "csm": "customer success manager",
+           "bd": "business development", "ops": "operations", "sr": "senior", "jr": "junior"}
+
+
+def _title_key(title):
+    t = re.sub(r"[^a-z0-9 ]", " ", (title or "").lower())
+    words = []
+    for w in t.split():
+        words.extend(_ABBREV.get(w, w).split())
+    out = []  # drop repeated words, so "SDR (Sales Development Representative)" == "Sales Development Representative"
+    for w in words:
+        if w not in out:
+            out.append(w)
+    return " ".join(out)
 
 
 def sync_applied(con):
@@ -693,6 +713,14 @@ def export_csv(con, path, where, params=()):
     for r in rows:
         r["priority"] = priority_score(r, cfg)
     rows.sort(key=lambda r: (-r["priority"], r["first_seen"] or ""), reverse=False)
+    seen, uniq = set(), []
+    for r in rows:  # same posting listed on two boards of one company (e.g. "artefact" and "artefactlinkedin")
+        k = (_title_key(r["title"]), (r["location"] or "").lower()[:25], (r["description"] or "")[:200])
+        if k in seen:
+            continue
+        seen.add(k)
+        uniq.append(r)
+    rows = uniq
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=EXPORT_FIELDS)
         w.writeheader()
