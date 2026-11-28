@@ -1,0 +1,974 @@
+{
+"BlackRock": {
+"t": [
+"blackrock"
+],
+"s": [
+"BlackRock_Professional",
+"BlackRock_Campus"
+]
+},
+"Capital One": {
+"t": [
+"capitalone"
+],
+"s": [
+"Capital_One"
+]
+},
+"PNC": {
+"t": [
+"pnc"
+],
+"s": [
+"External"
+]
+},
+"Fidelity Investments": {
+"t": [
+"fmr"
+],
+"s": [
+"FidelityCareers",
+"targeted"
+]
+},
+"Vanguard": {
+"t": [
+"vanguard"
+],
+"s": [
+"vanguard_external"
+]
+},
+"State Street": {
+"t": [
+"statestreet"
+],
+"s": [
+"Global"
+]
+},
+"T. Rowe Price": {
+"t": [
+"troweprice"
+],
+"s": [
+"TRowePrice"
+]
+},
+"Charles Schwab": {
+"t": [
+"schwab"
+],
+"s": [
+"Schwab_Careers"
+]
+},
+"Northern Trust": {
+"t": [
+"ntrs"
+],
+"s": [
+"northerntrust"
+]
+},
+"BNY": {
+"t": [
+"bnymellon"
+],
+"s": [
+"BNY_Mellon_Careers"
+]
+},
+"KKR": {
+"t": [
+"kkr"
+],
+"s": [
+"KKR"
+]
+},
+"Apollo Global": {
+"t": [
+"apollo",
+"athene"
+],
+"s": [
+"Apollo_Careers"
+]
+},
+"Moody's": {
+"t": [
+"moodys"
+],
+"s": [
+"moodys"
+]
+},
+"S&P Global": {
+"t": [
+"spgi"
+],
+"s": [
+"SPGI_Careers"
+]
+},
+"MSCI": {
+"t": [
+"msci"
+],
+"s": [
+"MSCI_Careers"
+]
+},
+"Nasdaq": {
+"t": [
+"nasdaq"
+],
+"s": [
+"Global_External_Site"
+]
+},
+"Intercontinental Exchange": {
+"t": [
+"ice",
+"intercontinentalexchange"
+],
+"s": [
+"ICE_Careers"
+]
+},
+"Mastercard": {
+"t": [
+"mastercard"
+],
+"s": [
+"CorporateCareers"
+]
+},
+"PayPal": {
+"t": [
+"paypal"
+],
+"s": [
+"jobs"
+]
+},
+"Fiserv": {
+"t": [
+"fiserv"
+],
+"s": [
+"EXT"
+]
+},
+"FIS": {
+"t": [
+"fis"
+],
+"s": [
+"SearchJobs"
+]
+},
+"Global Payments": {
+"t": [
+"tsys",
+"globalpayments"
+],
+"s": [
+"TSYS"
+]
+},
+"Deutsche Bank": {
+"t": [
+"db"
+],
+"s": [
+"DBWebsite"
+]
+},
+"Barclays": {
+"t": [
+"barclays"
+],
+"s": [
+"External_Career_Site_Barclays"
+]
+},
+"HSBC": {
+"t": [
+"hsbc"
+],
+"s": [
+"external"
+]
+},
+"Mizuho": {
+"t": [
+"mizuho"
+],
+"s": [
+"mizuhoamericas"
+]
+},
+"SMBC": {
+"t": [
+"smbcgroup",
+"smbc"
+],
+"s": [
+"SMBC"
+]
+},
+"Nomura": {
+"t": [
+"nomura"
+],
+"s": [
+"nomura"
+]
+},
+"RBC": {
+"t": [
+"rbc"
+],
+"s": [
+"RBC_Careers"
+]
+},
+"BMO": {
+"t": [
+"bmo"
+],
+"s": [
+"External"
+]
+},
+"Santander": {
+"t": [
+"santander"
+],
+"s": [
+"SantanderCareers"
+]
+},
+"Citizens": {
+"t": [
+"citizens",
+"citizensbank"
+],
+"s": [
+"Citizens_Careers"
+]
+},
+"Fifth Third": {
+"t": [
+"fifththird"
+],
+"s": [
+"53"
+]
+},
+"Huntington": {
+"t": [
+"huntington"
+],
+"s": [
+"HNB"
+]
+},
+"M&T Bank": {
+"t": [
+"mtb"
+],
+"s": [
+"MTB"
+]
+},
+"Regions": {
+"t": [
+"regions"
+],
+"s": [
+"Regions_Careers"
+]
+},
+"U.S. Bank": {
+"t": [
+"usbank"
+],
+"s": [
+"US_Bank_Careers"
+]
+},
+"Truist": {
+"t": [
+"truist"
+],
+"s": [
+"Careers"
+]
+},
+"Discover": {
+"t": [
+"discover"
+],
+"s": [
+"Discover"
+]
+},
+"Synchrony": {
+"t": [
+"synchronyfinancial",
+"synchrony"
+],
+"s": [
+"careers"
+]
+},
+"American Express": {
+"t": [
+"aexp",
+"americanexpress"
+],
+"s": [
+"AmericanExpress"
+]
+},
+"Fannie Mae": {
+"t": [
+"fanniemae"
+],
+"s": [
+"fanniemae"
+]
+},
+"Freddie Mac": {
+"t": [
+"freddiemac"
+],
+"s": [
+"External"
+]
+},
+"Franklin Templeton": {
+"t": [
+"franklintempleton"
+],
+"s": [
+"Primary-External-1"
+]
+},
+"Janus Henderson": {
+"t": [
+"jhi",
+"janushenderson"
+],
+"s": [
+"JHI"
+]
+},
+"AllianceBernstein": {
+"t": [
+"alliancebernstein",
+"ab"
+],
+"s": [
+"alliancebernsteincareers"
+]
+},
+"PIMCO": {
+"t": [
+"pimco"
+],
+"s": [
+"pimco-careers"
+]
+},
+"Wellington Management": {
+"t": [
+"wellington"
+],
+"s": [
+"External"
+]
+},
+"TIAA / Nuveen": {
+"t": [
+"tiaa"
+],
+"s": [
+"Search"
+]
+},
+"PGIM / Prudential": {
+"t": [
+"pru",
+"prudential"
+],
+"s": [
+"Careers"
+]
+},
+"MetLife": {
+"t": [
+"metlife"
+],
+"s": [
+"External"
+]
+},
+"Principal": {
+"t": [
+"principal"
+],
+"s": [
+"Principal"
+]
+},
+"Voya": {
+"t": [
+"voya"
+],
+"s": [
+"VoyaJobs"
+]
+},
+"Lazard": {
+"t": [
+"lazard"
+],
+"s": [
+"lazardcareers",
+"Lazard_Careers"
+]
+},
+"Evercore": {
+"t": [
+"evercore"
+],
+"s": [
+"EvercoreCareers"
+]
+},
+"Houlihan Lokey": {
+"t": [
+"hl",
+"houlihanlokey"
+],
+"s": [
+"Campus"
+]
+},
+"Jefferies": {
+"t": [
+"jefferies"
+],
+"s": [
+"JefferiesCareers"
+]
+},
+"Moelis": {
+"t": [
+"moelis"
+],
+"s": [
+"Moelis"
+]
+},
+"PJT Partners": {
+"t": [
+"pjtpartners",
+"pjt"
+],
+"s": [
+"PJT"
+]
+},
+"Guggenheim": {
+"t": [
+"guggenheim",
+"guggenheimpartners"
+],
+"s": []
+},
+"Raymond James": {
+"t": [
+"raymondjames"
+],
+"s": [
+"RaymondJamesCareers"
+]
+},
+"Stifel": {
+"t": [
+"stifel"
+],
+"s": [
+"Stifel_Careers"
+]
+},
+"Edward Jones": {
+"t": [
+"edwardjones"
+],
+"s": []
+},
+"LPL Financial": {
+"t": [
+"lplfinancial",
+"lpl"
+],
+"s": []
+},
+"Piper Sandler": {
+"t": [
+"pipersandler"
+],
+"s": []
+},
+"Baird": {
+"t": [
+"rwbaird",
+"baird"
+],
+"s": [
+"Baird"
+]
+},
+"CME Group": {
+"t": [
+"cmegroup"
+],
+"s": [
+"cme_careers"
+]
+},
+"Cboe": {
+"t": [
+"cboe"
+],
+"s": [
+"External_Career_CBOE"
+]
+},
+"FactSet": {
+"t": [
+"factset"
+],
+"s": [
+"FactSetCareers"
+]
+},
+"Morningstar": {
+"t": [
+"morningstar"
+],
+"s": [
+"Americas"
+]
+},
+"Broadridge": {
+"t": [
+"broadridge"
+],
+"s": []
+},
+"SS&C": {
+"t": [
+"ssctech",
+"ssc"
+],
+"s": []
+},
+"Hamilton Lane": {
+"t": [
+"hamiltonlane"
+],
+"s": []
+},
+"StepStone": {
+"t": [
+"stepstone",
+"stepstonegroup"
+],
+"s": []
+},
+"HPS Investment Partners": {
+"t": [
+"hpspartners",
+"hps"
+],
+"s": []
+},
+"Golub Capital": {
+"t": [
+"golubcapital",
+"golub"
+],
+"s": []
+},
+"Bain Capital": {
+"t": [
+"baincapital"
+],
+"s": [
+"Bain_Capital"
+]
+},
+"Warburg Pincus": {
+"t": [
+"warburgpincus"
+],
+"s": []
+},
+"Oaktree": {
+"t": [
+"oaktree"
+],
+"s": [
+"oaktreecareers"
+]
+},
+"Sixth Street": {
+"t": [
+"sixthstreet"
+],
+"s": []
+},
+"Fortress": {
+"t": [
+"fortress"
+],
+"s": [
+"FortressCareers"
+]
+},
+"Millennium": {
+"t": [
+"mlp"
+],
+"s": [
+"mlpcareers"
+]
+},
+"TPG": {
+"t": [
+"tpg"
+],
+"s": []
+},
+"Brookfield": {
+"t": [
+"brookfield"
+],
+"s": [
+"brookfield"
+]
+},
+"JLL": {
+"t": [
+"jll"
+],
+"s": [
+"jllcareers"
+]
+},
+"Cushman & Wakefield": {
+"t": [
+"cushwake"
+],
+"s": []
+},
+"Walker & Dunlop": {
+"t": [
+"walkerdunlop"
+],
+"s": []
+},
+"Newmark": {
+"t": [
+"nmrk",
+"newmark"
+],
+"s": []
+},
+"CBRE": {
+"t": [
+"cbre"
+],
+"s": []
+},
+"Adobe": {
+"t": [
+"adobe"
+],
+"s": [
+"external_experienced"
+]
+},
+"NVIDIA": {
+"t": [
+"nvidia"
+],
+"s": [
+"NVIDIAExternalCareerSite"
+]
+},
+"Workday": {
+"t": [
+"workday"
+],
+"s": [
+"Workday"
+]
+},
+"Accenture": {
+"t": [
+"accenture"
+],
+"s": [
+"AccentureCareers"
+]
+},
+"Natixis": {
+"t": [
+"natixis"
+],
+"s": []
+},
+"Societe Generale": {
+"t": [
+"socgen",
+"societegenerale"
+],
+"s": []
+},
+"BNP Paribas": {
+"t": [
+"bnpparibas"
+],
+"s": []
+},
+"Macquarie": {
+"t": [
+"macquarie"
+],
+"s": []
+},
+"Scotiabank": {
+"t": [
+"scotiabank"
+],
+"s": []
+},
+"KeyBank": {
+"t": [
+"key",
+"keybank"
+],
+"s": []
+},
+"First Citizens": {
+"t": [
+"firstcitizens"
+],
+"s": []
+},
+"Comerica": {
+"t": [
+"comerica"
+],
+"s": []
+},
+"Zions": {
+"t": [
+"zionsbancorp",
+"zions"
+],
+"s": []
+},
+"Northwestern Mutual": {
+"t": [
+"northwesternmutual",
+"nm"
+],
+"s": []
+},
+"New York Life": {
+"t": [
+"newyorklife"
+],
+"s": []
+},
+"MassMutual": {
+"t": [
+"massmutual"
+],
+"s": []
+},
+"Lincoln Financial": {
+"t": [
+"lfg",
+"lincolnfinancial"
+],
+"s": []
+},
+"Allstate": {
+"t": [
+"allstate"
+],
+"s": []
+},
+"Travelers": {
+"t": [
+"travelers"
+],
+"s": []
+},
+"Chubb": {
+"t": [
+"chubb"
+],
+"s": []
+},
+"AIG": {
+"t": [
+"aig"
+],
+"s": []
+},
+"Liberty Mutual": {
+"t": [
+"libertymutual"
+],
+"s": []
+},
+"Visa": {
+"t": [
+"visa"
+],
+"s": []
+},
+"Intuit": {
+"t": [
+"intuit"
+],
+"s": []
+},
+"Toast": {
+"t": [
+"toast"
+],
+"s": []
+},
+"Moody's Analytics": {
+"t": [
+"moodys"
+],
+"s": []
+},
+"Lord Abbett": {
+"t": [
+"lordabbett"
+],
+"s": []
+},
+"Cohen & Steers": {
+"t": [
+"cohenandsteers"
+],
+"s": []
+},
+"Neuberger Berman": {
+"t": [
+"nb"
+],
+"s": [
+"NBCareers"
+]
+},
+"Kroll": {
+"t": [
+"kroll"
+],
+"s": []
+},
+"Duff & Phelps": {
+"t": [
+"duffandphelps"
+],
+"s": []
+},
+"Alvarez & Marsal": {
+"t": [
+"alvarezandmarsal",
+"alvarezmarsal"
+],
+"s": []
+},
+"FTI Consulting": {
+"t": [
+"fticonsulting"
+],
+"s": []
+},
+"Guidehouse": {
+"t": [
+"guidehouse"
+],
+"s": []
+},
+"Huron": {
+"t": [
+"huronconsultinggroup",
+"huron"
+],
+"s": []
+},
+"Deloitte": {
+"t": [
+"deloitte"
+],
+"s": []
+},
+"EY": {
+"t": [
+"ey"
+],
+"s": []
+},
+"KPMG": {
+"t": [
+"kpmg"
+],
+"s": []
+},
+"PwC": {
+"t": [
+"pwc"
+],
+"s": []
+},
+"Grant Thornton": {
+"t": [
+"grantthornton",
+"gt"
+],
+"s": []
+},
+"BDO": {
+"t": [
+"bdo"
+],
+"s": []
+},
+"RSM": {
+"t": [
+"rsm",
+"rsmus"
+],
+"s": []
+}
+}

@@ -1,6 +1,10 @@
 name: bulk-detect
 on:
   workflow_dispatch:
+    inputs:
+      script:
+        description: script in tools/ to run
+        default: bulk_detect.py
 permissions:
   contents: write
 jobs:
@@ -12,11 +16,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/bulk_detect.py
+      - run: python tools/${{ inputs.script || 'bulk_detect.py' }}
       - name: Commit results
         run: |
           git config user.name "job-finder-bot"
           git config user.email "job-finder-bot@users.noreply.github.com"
-          git add -f data/detected.csv
+          git add -f data/*.csv
           git commit -m "Bulk board detection results" || exit 0
           for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep 10; done
