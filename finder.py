@@ -219,7 +219,7 @@ def parse_ashby(data, company, slug):
 PARSERS = {"greenhouse": parse_greenhouse, "lever": parse_lever, "ashby": parse_ashby}
 
 # Workday: slug format "tenant|wdN|site", e.g. "td|wd3|TD_Bank_Careers"
-WD_SEARCH_TERMS = ["analyst", "associate", "sales", "credit", "investment", "operations"]
+WD_SEARCH_TERMS = ["analyst", "associate", "sales", "credit", "investment", "operations", "development", "risk", "strategy", "data"]
 
 
 def http_post_json(url, payload, timeout=30):
@@ -643,6 +643,9 @@ EXPORT_FIELDS = ["status", "company", "title", "location", "remote", "department
                  "posted", "first_seen", "url", "apply_url", "match_reason", "ats", "slug", "id", "notes"]
 
 
+SELF_APPLY_ATS = {"workday", "oracle", "icims"}
+
+
 def export_csv(con, path, where, params=()):
     sync_applied(con)
     if "status!='skip'" in where:
@@ -653,6 +656,15 @@ def export_csv(con, path, where, params=()):
         w.writeheader()
         for r in rows:
             w.writerow({k: r[k] for k in EXPORT_FIELDS})
+    if path.name == "open_matches.csv":
+        # Big-company career sites that need your own account (Workday etc.): a separate list
+        # with direct links, newest first, so you can apply to them yourself.
+        mine = [r for r in rows if r["ats"] in SELF_APPLY_ATS]
+        with open(path.parent / "apply_yourself.csv", "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=EXPORT_FIELDS)
+            w.writeheader()
+            for r in mine:
+                w.writerow({k: r[k] for k in EXPORT_FIELDS})
     return len(rows)
 
 

@@ -317,13 +317,13 @@ William Blair,greenhouse,williamblair,small-finance,ok,2026-11-23
 Harris Williams,,,small-finance,not_found,2026-11-23
 Raine,lever,raine,small-finance,ok,2026-11-23
 Moelis,,,small-finance,not_found,2026-11-23
-PJT Partners,,,small-finance,not_found,2026-11-23
+PJT Partners,workday,pjtpartners|wd1|Careers,small-finance,ok,2026-11-23
 Perella Weinberg,,,small-finance,not_found,2026-11-23
 Guggenheim Partners,,,small-finance,not_found,2026-11-23
 Tiger Global,ashby,tiger,small-finance,ok,2026-11-23
 Coatue,,,small-finance,not_found,2026-11-23
 Arrowmark,,,small-finance,not_found,2026-11-23
-Sixth Street,,,small-finance,not_found,2026-11-23
+Sixth Street,workday,sixthstreet|wd1|SixthstreetCareers,small-finance,ok,2026-11-23
 HPS Investment Partners,greenhouse,hpsinvestmentpartners,small-finance,ok,2026-11-23
 Golub Capital,,,small-finance,not_found,2026-11-23
 Antares Capital,ashby,antares,small-finance,ok,2026-11-23
@@ -363,10 +363,10 @@ Ocrolus,greenhouse,ocrolusinc,instinct,ok,2026-11-27
 Zip Security,ashby,Zip Security,instinct,ok,2026-11-27
 PitchBook,,,list-data,not_found,2026-11-27
 Preqin,,,list-data,not_found,2026-11-27
-Morningstar,,,list-data,not_found,2026-11-27
+Morningstar,workday,morningstar|wd5|Americas,list-data,ok,2026-11-27
 MSCI,,,list-data,not_found,2026-11-27
 Moody's,,,list-data,not_found,2026-11-27
-S&P Global,,,list-data,not_found,2026-11-27
+S&P Global,workday,spgi|wd5|SPGI_Careers,list-data,ok,2026-11-27
 Bloomberg,,,list-data,not_found,2026-11-27
 FactSet,,,list-data,not_found,2026-11-27
 Allvue Systems,,,list-data,not_found,2026-11-27
@@ -414,19 +414,19 @@ AllianceBernstein,,,list-am,not_found,2026-11-27
 Lord Abbett,,,list-am,not_found,2026-11-27
 PGIM,,,list-am,not_found,2026-11-27
 Nuveen,,,list-am,not_found,2026-11-27
-Wellington Management,,,list-am,not_found,2026-11-27
+Wellington Management,workday,wellington|wd5|External,list-am,ok,2026-11-27
 Federated Hermes,,,list-am,not_found,2026-11-27
 Voya,,,list-am,not_found,2026-11-27
 Cohen & Steers,greenhouse,cohensteers,list-am,ok,2026-11-27
 Evercore,,,list-am,not_found,2026-11-27
-Houlihan Lokey,,,list-am,not_found,2026-11-27
+Houlihan Lokey,workday,hl|wd1|Campus,list-am,ok,2026-11-27
 Kroll,,,list-am,not_found,2026-11-27
 Stout,ashby,stout,list-am,ok,2026-11-27
 Jefferies,,,list-am,not_found,2026-11-27
-Guggenheim,,,list-am,not_found,2026-11-27
+Guggenheim,workday,guggenheim|wd1|Guggenheim_Careers,list-am,ok,2026-11-27
 Centerview,,,list-am,not_found,2026-11-27
 Greenhill,,,list-am,not_found,2026-11-27
-Raymond James,,,list-am,not_found,2026-11-27
+Raymond James,workday,raymondjames|wd1|RaymondJamesCareers,list-am,ok,2026-11-27
 Piper Sandler,,,list-am,not_found,2026-11-27
 AQR,greenhouse,aqr,list-am,ok,2026-11-27
 Two Sigma,,,list-am,not_found,2026-11-27
@@ -1281,3 +1281,49 @@ GuidePoint Security,greenhouse,guidepointsecurity,list-batch3,ok,2026-11-27
 Trace3,greenhouse,trace3,list-batch3,ok,2026-11-27
 Myriad360,greenhouse,myriad360,list-batch3,ok,2026-11-27
 Clark,ashby,clark,list-batch3,ok,2026-11-27
+BlackRock,workday,blackrock|wd1|BlackRock_Professional,bigco-workday,ok,2026-11-27
+Capital One,workday,capitalone|wd12|Capital_One,bigco-workday,ok,2026-11-27
+PNC,workday,pnc|wd5|External,bigco-workday,ok,2026-11-27
+Fidelity Investments,workday,fmr|wd1|FidelityCareers,bigco-workday,ok,2026-11-27
+Vanguard,workday,vanguard|wd5|vanguard_external,bigco-workday,ok,2026-11-27
+State Street,workday,statestreet|wd1|Global,bigco-workday,ok,2026-11-27
+T. Rowe Price,workday,troweprice|wd5|TRowePrice,bigco-workday,ok,2026-11-27
+Northern Trust,workday,ntrs|wd1|northerntrust,bigco-workday,ok,2026-11-27
+Apollo Global,workday,athene|wd5|Apollo_Careers,bigco-workday,ok,2026-11-27
+Mastercard,workday,mastercard|wd1|CorporateCareers,bigco-workday,ok,2026-11-27
+PayPal,workday,paypal|wd1|jobs,bigco-workday,ok,2026-11-27
+Fiserv,workday,fiserv|wd5|EXT,bigco-workday,ok,2026-11-27
+FIS,workday,fis|wd5|SearchJobs,bigco-workday,ok,2026-11-27
+Global Payments,workday,tsys|wd1|TSYS,bigco-workday,ok,2026-11-27
+Deutsche Bank,workday,db|wd3|DBWebsite,bigco-workday,ok,2026-11-27
+Barclays,workday,barclays|wd3|External_Career_Site_Barclays,bigco-workday,ok,2026-11-27
+Mizuho,workday,mizuho|wd1|mizuhoamericas,bigco-workday,ok,2026-11-27
+BMO,workday,bmo|wd3|External,bigco-workday,ok,2026-11-27
+Santander,workday,santander|wd3|SantanderCareers,bigco-workday,ok,2026-11-27
+M&T Bank,workday,mtb|wd5|MTB,bigco-workday,ok,2026-11-27
+Regions,workday,regions|wd5|Regions_Careers,bigco-workday,ok,2026-11-27
+U.S. Bank,workday,usbank|wd1|US_Bank_Careers,bigco-workday,ok,2026-11-27
+Truist,workday,truist|wd1|Careers,bigco-workday,ok,2026-11-27
+Synchrony,workday,synchronyfinancial|wd5|careers,bigco-workday,ok,2026-11-27
+Fannie Mae,workday,fanniemae|wd1|FanniemaeCareers,bigco-workday,ok,2026-11-27
+Freddie Mac,workday,freddiemac|wd5|External,bigco-workday,ok,2026-11-27
+PGIM / Prudential,workday,pru|wd5|Careers,bigco-workday,ok,2026-11-27
+LPL Financial,workday,lplfinancial|wd1|External,bigco-workday,ok,2026-11-27
+Baird,workday,baird|wd1|Careers,bigco-workday,ok,2026-11-27
+CME Group,workday,cmegroup|wd1|cme_careers,bigco-workday,ok,2026-11-27
+Cboe,workday,cboe|wd1|External_Career_CBOE,bigco-workday,ok,2026-11-27
+Broadridge,workday,broadridge|wd5|Careers,bigco-workday,ok,2026-11-27
+Oaktree,workday,oaktree|wd1|Oaktree,bigco-workday,ok,2026-11-27
+JLL,workday,jll|wd1|jllcareers,bigco-workday,ok,2026-11-27
+Adobe,workday,adobe|wd5|external_experienced,bigco-workday,ok,2026-11-27
+NVIDIA,workday,nvidia|wd5|NVIDIAExternalCareerSite,bigco-workday,ok,2026-11-27
+Workday,workday,workday|wd5|Workday,bigco-workday,ok,2026-11-27
+Accenture,workday,accenture|wd103|AccentureCareers,bigco-workday,ok,2026-11-27
+KeyBank,workday,keybank|wd5|External_Career_Site,bigco-workday,ok,2026-11-27
+Allstate,workday,allstate|wd5|Allstate_Careers,bigco-workday,ok,2026-11-27
+Travelers,workday,travelers|wd5|External,bigco-workday,ok,2026-11-27
+Visa,workday,visa|wd5|Visa,bigco-workday,ok,2026-11-27
+Guidehouse,workday,guidehouse|wd1|External,bigco-workday,ok,2026-11-27
+Huron,workday,huron|wd1|HuronCareers,bigco-workday,ok,2026-11-27
+BDO,workday,bdo|wd3|Bdo,bigco-workday,ok,2026-11-27
+RSM,workday,rsm|wd1|RsmCareers,bigco-workday,ok,2026-11-27
