@@ -554,7 +554,10 @@ def evaluate(job, cfg):
     inc = _has_any(title, cfg.get("title_include", []))
     if not inc:
         return 0, "title not in target list"
-    exc = _has_any(title, cfg.get("title_exclude", []))
+    excepts = cfg.get("exclude_exceptions", {})
+    # e.g. "associate product manager" is fine even though "product manager" is excluded
+    exc = next((t for t in cfg.get("title_exclude", []) if _has_any(title, [t])
+                and not _has_any(title, excepts.get(t, []))), None)
     if exc:
         return 0, f"title excluded ({exc})"
     loc = (job.get("location") or "").lower()
@@ -639,23 +642,62 @@ def sync_applied(con):
     return n
 
 
-EXPORT_FIELDS = ["status", "company", "title", "location", "remote", "department", "compensation",
+EXPORT_FIELDS = ["priority", "status", "company", "title", "location", "remote", "department", "compensation",
                  "posted", "first_seen", "url", "apply_url", "match_reason", "ats", "slug", "id", "notes"]
 
 
 SELF_APPLY_ATS = {"workday", "oracle", "icims"}
 
 
+def priority_score(job, cfg):
+    """Rank a matching job: GTM/sales and product roles, startups, and NYC first (config: priority)."""
+    p = cfg.get("priority") or {}
+    title = (job.get("title") or "").lower()
+    loc = (job.get("location") or "").lower()
+    score = 0
+    for tier in p.get("role_tiers", []):
+        if _has_any(title, tier["terms"]):
+            score += tier["points"]
+            break
+    sa = p.get("startup_ats", {})
+    if job.get("ats") in sa.get("ats", []):
+        score += sa.get("points", 0)
+    for tier in p.get("locations", []):
+        if _has_any(loc, tier["terms"]):
+            score += tier["points"]
+            break
+    else:
+        if job.get("remote"):
+            score += p.get("remote_points", 0)
+    try:
+        posted = datetime.fromisoformat((job.get("posted") or "").replace("Z", "+00:00"))
+        if posted.tzinfo is None:
+            posted = posted.replace(tzinfo=timezone.utc)
+        if posted > datetime.now(timezone.utc) - timedelta(days=p.get("fresh_days", 2)):
+            score += p.get("fresh_points", 0)
+    except ValueError:
+        pass
+    if not _has_any(title, p.get("penalty_exempt", [])):
+        for pen in p.get("penalties", []):
+            if _has_any(title, pen["terms"]):
+                score += pen["points"]
+    return score
+
+
 def export_csv(con, path, where, params=()):
     sync_applied(con)
     if "status!='skip'" in where:
         where = where.replace("status!='skip'", "status NOT IN ('skip','applied')")
-    rows = con.execute(f"SELECT * FROM jobs WHERE {where} ORDER BY first_seen DESC, company", params).fetchall()
+    cfg = load_config()
+    rows = [dict(r) for r in con.execute(f"SELECT * FROM jobs WHERE {where}", params).fetchall()]
+    for r in rows:
+        r["priority"] = priority_score(r, cfg)
+    rows.sort(key=lambda r: (-r["priority"], r["first_seen"] or ""), reverse=False)
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=EXPORT_FIELDS)
         w.writeheader()
         for r in rows:
-            w.writerow({k: r[k] for k in EXPORT_FIELDS})
+            w.writerow({k: r.get(k) for k in EXPORT_FIELDS})
     if path.name == "open_matches.csv":
         # Big-company career sites that need your own account (Workday etc.): a separate list
         # with direct links, newest first, so you can apply to them yourself.
@@ -664,7 +706,7 @@ def export_csv(con, path, where, params=()):
             w = csv.DictWriter(f, fieldnames=EXPORT_FIELDS)
             w.writeheader()
             for r in mine:
-                w.writerow({k: r[k] for k in EXPORT_FIELDS})
+                w.writerow({k: r.get(k) for k in EXPORT_FIELDS})
     return len(rows)
 
 

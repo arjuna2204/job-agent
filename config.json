@@ -10,8 +10,10 @@
     "aml",
     "analyst",
     "analytics",
+    "apm",
     "asset management",
     "associate",
+    "associate product manager",
     "banking",
     "bdr",
     "bi analyst",
@@ -84,7 +86,14 @@
     "portfolio",
     "pricing",
     "private credit",
+    "product",
+    "product analyst",
+    "product associate",
     "product marketing",
+    "product operations",
+    "product ops",
+    "product specialist",
+    "product strategy",
     "program",
     "relationship",
     "research",
@@ -93,6 +102,7 @@
     "revops",
     "risk",
     "rotational",
+    "rotational product manager",
     "sales",
     "sales development",
     "sales development representative",
@@ -110,43 +120,62 @@
     "underwriter",
     "underwriting",
     "valuation",
+    "valuation analyst",
+    "valuations",
     "wealth"
   ],
   "title_exclude": [
+    "assistant vice president",
+    "attorney",
+    "avp",
+    "co-op",
+    "counsel",
+    "designer",
+    "developer",
+    "director",
+    "division manager",
+    "engineer",
+    "engineering",
+    "engineering manager",
+    "enterprise",
+    "executive assistant",
+    "federal",
+    "financial advisor",
+    "financial services representative",
+    "group product manager",
+    "head of",
+    "ii",
+    "iii",
+    "intern",
+    "internship",
+    "lead",
+    "marketing manager",
+    "mid-market",
+    "named",
+    "nurse",
+    "portfolio manager",
+    "premier advisor",
+    "principal",
+    "private wealth advisor",
+    "product designer",
+    "product engineer",
+    "product manager",
+    "product owner",
+    "program manager, engineering",
+    "quant",
+    "recruiter",
+    "sales manager",
+    "scientist",
     "senior",
+    "software",
+    "sourcing manager",
     "sr",
     "sr.",
     "staff",
-    "principal",
-    "director",
-    "vp",
-    "vice president",
-    "head of",
-    "lead",
-    "engineer",
-    "engineering",
-    "software",
-    "developer",
-    "intern",
-    "internship",
-    "co-op",
-    "designer",
-    "scientist",
-    "counsel",
-    "attorney",
-    "recruiter",
-    "nurse",
-    "ii",
-    "iii",
-    "enterprise",
-    "mid-market",
-    "named",
     "strategics",
-    "federal",
-    "quant",
-    "engineering manager",
-    "product manager",
-    "program manager, engineering"
+    "vice president",
+    "vp",
+    "wealth advisor"
   ],
   "locations": [
     "austin",
@@ -351,5 +380,152 @@
     "fp&a",
     "strategic finance",
     "finance"
-  ]
+  ],
+  "exclude_exceptions": {
+    "product manager": [
+      "associate product manager",
+      "apm",
+      "rotational product manager",
+      "product manager i",
+      "junior product manager"
+    ]
+  },
+  "priority": {
+    "role_tiers": [
+      {
+        "points": 30,
+        "terms": [
+          "gtm",
+          "go-to-market",
+          "go to market",
+          "sales",
+          "sdr",
+          "bdr",
+          "business development",
+          "account executive",
+          "account manager",
+          "partnerships",
+          "partner",
+          "revenue",
+          "revops",
+          "growth",
+          "customer success",
+          "solutions",
+          "deal desk",
+          "pricing"
+        ]
+      },
+      {
+        "points": 28,
+        "terms": [
+          "product",
+          "associate product manager",
+          "apm",
+          "product analyst",
+          "product operations",
+          "product marketing"
+        ]
+      },
+      {
+        "points": 22,
+        "terms": [
+          "valuation",
+          "valuations",
+          "strategy",
+          "bizops",
+          "biz ops",
+          "business operations",
+          "chief of staff",
+          "strategic finance",
+          "corporate development",
+          "fp&a",
+          "investment",
+          "capital markets",
+          "credit"
+        ]
+      },
+      {
+        "points": 10,
+        "terms": [
+          "analyst",
+          "associate",
+          "operations",
+          "finance"
+        ]
+      }
+    ],
+    "startup_ats": {
+      "points": 15,
+      "ats": [
+        "ashby",
+        "greenhouse",
+        "lever",
+        "workable"
+      ]
+    },
+    "locations": [
+      {
+        "points": 25,
+        "terms": [
+          "new york",
+          "nyc",
+          "new york city",
+          "manhattan",
+          "brooklyn",
+          "jersey city",
+          "hoboken",
+          "stamford",
+          "greenwich"
+        ]
+      },
+      {
+        "points": 10,
+        "terms": [
+          "san francisco",
+          "bay area",
+          "boston",
+          "chicago",
+          "miami",
+          "austin",
+          "los angeles",
+          "palo alto",
+          "menlo park",
+          "san mateo",
+          "redwood city",
+          "oakland",
+          "santa monica",
+          "san jose",
+          "irvine",
+          "san diego"
+        ]
+      },
+      {
+        "points": 2,
+        "terms": [
+          "london"
+        ]
+      }
+    ],
+    "remote_points": 8,
+    "fresh_days": 2,
+    "fresh_points": 5,
+    "penalties": [
+      {
+        "points": -12,
+        "terms": [
+          "manager",
+          "trader",
+          "advisor",
+          "banker",
+          "representative"
+        ]
+      }
+    ],
+    "penalty_exempt": [
+      "account manager",
+      "product manager",
+      "partner manager",
+      "success manager"
+    ]
+  }
 }
